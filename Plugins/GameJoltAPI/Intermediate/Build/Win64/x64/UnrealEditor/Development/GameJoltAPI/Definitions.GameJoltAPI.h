@@ -1,4 +1,4 @@
-#include "C:/Projekty/project_prospector/Intermediate/Build/Win64/x64/project_prospectorEditor/Development/Engine/SharedDefinitions.Engine.Cpp20.InclOrderUnreal5_0.h"
+#include "E:/GitRepos/project_prospector/Intermediate/Build/Win64/x64/project_prospectorEditor/Development/Engine/SharedDefinitions.Engine.Cpp20.InclOrderUnreal5_0.h"
 #undef UE_IS_ENGINE_MODULE
 #undef DEPRECATED_FORGAME
 #define DEPRECATED_FORGAME DEPRECATED

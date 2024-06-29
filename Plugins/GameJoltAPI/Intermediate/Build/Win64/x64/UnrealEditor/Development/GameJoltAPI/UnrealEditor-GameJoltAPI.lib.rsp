@@ -6,7 +6,7 @@
 /NAME:"UnrealEditor-GameJoltAPI.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"C:\Projekty\project_prospector\Intermediate\Build\Win64\x64\project_prospectorEditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h.obj"
-"C:\Projekty\project_prospector\Plugins\GameJoltAPI\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameJoltAPI\Module.GameJoltAPI.cpp.obj"
-"C:\Projekty\project_prospector\Plugins\GameJoltAPI\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameJoltAPI\Default.rc2.res"
-/OUT:"C:\Projekty\project_prospector\Plugins\GameJoltAPI\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameJoltAPI\UnrealEditor-GameJoltAPI.lib"
+"E:\GitRepos\project_prospector\Intermediate\Build\Win64\x64\project_prospectorEditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h.obj"
+"E:\GitRepos\project_prospector\Plugins\GameJoltAPI\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameJoltAPI\Module.GameJoltAPI.cpp.obj"
+"E:\GitRepos\project_prospector\Plugins\GameJoltAPI\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameJoltAPI\Default.rc2.res"
+/OUT:"E:\GitRepos\project_prospector\Plugins\GameJoltAPI\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameJoltAPI\UnrealEditor-GameJoltAPI.lib"

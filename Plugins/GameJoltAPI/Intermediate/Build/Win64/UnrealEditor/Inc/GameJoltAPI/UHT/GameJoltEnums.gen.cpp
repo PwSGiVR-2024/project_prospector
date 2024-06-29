@@ -559,11 +559,11 @@ void EmptyLinkFunctionForGeneratedCodeGameJoltEnums() {}
 		}
 		return Z_Registration_Info_UEnum_EGJErrors.InnerSingleton;
 	}
-	struct Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltEnums_h_Statics
+	struct Z_CompiledInDeferFile_FID_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltEnums_h_Statics
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 	};
-	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltEnums_h_Statics::EnumInfo[] = {
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltEnums_h_Statics::EnumInfo[] = {
 		{ EGJAchievedTrophies_StaticEnum, TEXT("EGJAchievedTrophies"), &Z_Registration_Info_UEnum_EGJAchievedTrophies, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 4173289317U) },
 		{ EGJSessionStatus_StaticEnum, TEXT("EGJSessionStatus"), &Z_Registration_Info_UEnum_EGJSessionStatus, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3662948232U) },
 		{ EGJDataStore_StaticEnum, TEXT("EGJDataStore"), &Z_Registration_Info_UEnum_EGJDataStore, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1883144207U) },
@@ -573,8 +573,8 @@ void EmptyLinkFunctionForGeneratedCodeGameJoltEnums() {}
 		{ EGJTrophyDifficulty_StaticEnum, TEXT("EGJTrophyDifficulty"), &Z_Registration_Info_UEnum_EGJTrophyDifficulty, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 619934838U) },
 		{ EGJErrors_StaticEnum, TEXT("EGJErrors"), &Z_Registration_Info_UEnum_EGJErrors, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1852560761U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltEnums_h_1891904236(TEXT("/Script/GameJoltAPI"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltEnums_h_1891904236(TEXT("/Script/GameJoltAPI"),
 		nullptr, 0,
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltEnums_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltEnums_h_Statics::EnumInfo));
+		Z_CompiledInDeferFile_FID_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltEnums_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltEnums_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

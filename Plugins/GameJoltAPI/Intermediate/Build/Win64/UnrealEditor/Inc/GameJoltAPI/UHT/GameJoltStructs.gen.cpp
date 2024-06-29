@@ -962,19 +962,19 @@ template<> GAMEJOLTAPI_API UScriptStruct* StaticStruct<FServerTime>()
 		}
 		return Z_Registration_Info_UScriptStruct_ServerTime.InnerSingleton;
 	}
-	struct Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltStructs_h_Statics
+	struct Z_CompiledInDeferFile_FID_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltStructs_h_Statics
 	{
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltStructs_h_Statics::ScriptStructInfo[] = {
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltStructs_h_Statics::ScriptStructInfo[] = {
 		{ FUserInfo::StaticStruct, Z_Construct_UScriptStruct_FUserInfo_Statics::NewStructOps, TEXT("UserInfo"), &Z_Registration_Info_UScriptStruct_UserInfo, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FUserInfo), 2202402224U) },
 		{ FTrophyInfo::StaticStruct, Z_Construct_UScriptStruct_FTrophyInfo_Statics::NewStructOps, TEXT("TrophyInfo"), &Z_Registration_Info_UScriptStruct_TrophyInfo, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FTrophyInfo), 3749690392U) },
 		{ FScoreInfo::StaticStruct, Z_Construct_UScriptStruct_FScoreInfo_Statics::NewStructOps, TEXT("ScoreInfo"), &Z_Registration_Info_UScriptStruct_ScoreInfo, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FScoreInfo), 1122849245U) },
 		{ FScoreTableInfo::StaticStruct, Z_Construct_UScriptStruct_FScoreTableInfo_Statics::NewStructOps, TEXT("ScoreTableInfo"), &Z_Registration_Info_UScriptStruct_ScoreTableInfo, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FScoreTableInfo), 2846959055U) },
 		{ FServerTime::StaticStruct, Z_Construct_UScriptStruct_FServerTime_Statics::NewStructOps, TEXT("ServerTime"), &Z_Registration_Info_UScriptStruct_ServerTime, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FServerTime), 2068115068U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltStructs_h_113701858(TEXT("/Script/GameJoltAPI"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltStructs_h_113701858(TEXT("/Script/GameJoltAPI"),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltStructs_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltStructs_h_Statics::ScriptStructInfo),
+		Z_CompiledInDeferFile_FID_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltStructs_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltStructs_h_Statics::ScriptStructInfo),
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

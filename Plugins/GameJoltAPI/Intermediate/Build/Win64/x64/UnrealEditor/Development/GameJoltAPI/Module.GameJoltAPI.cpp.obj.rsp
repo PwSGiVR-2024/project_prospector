@@ -1,11 +1,11 @@
-"C:\Projekty\project_prospector\Plugins\GameJoltAPI\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameJoltAPI\Module.GameJoltAPI.cpp"
-/FI"C:\Projekty\project_prospector\Intermediate\Build\Win64\x64\project_prospectorEditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h"
-/FI"C:\Projekty\project_prospector\Plugins\GameJoltAPI\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameJoltAPI\Definitions.GameJoltAPI.h"
-/Yu"C:\Projekty\project_prospector\Intermediate\Build\Win64\x64\project_prospectorEditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h"
-/Fp"C:\Projekty\project_prospector\Intermediate\Build\Win64\x64\project_prospectorEditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h.pch"
-/Fo"C:\Projekty\project_prospector\Plugins\GameJoltAPI\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameJoltAPI\Module.GameJoltAPI.cpp.obj"
-/sourceDependencies "C:\Projekty\project_prospector\Plugins\GameJoltAPI\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameJoltAPI\Module.GameJoltAPI.cpp.dep.json"
-@"C:\Projekty\project_prospector\Plugins\GameJoltAPI\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameJoltAPI\GameJoltAPI.Shared.rsp"
+"E:\GitRepos\project_prospector\Plugins\GameJoltAPI\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameJoltAPI\Module.GameJoltAPI.cpp"
+/FI"E:\GitRepos\project_prospector\Intermediate\Build\Win64\x64\project_prospectorEditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h"
+/FI"E:\GitRepos\project_prospector\Plugins\GameJoltAPI\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameJoltAPI\Definitions.GameJoltAPI.h"
+/Yu"E:\GitRepos\project_prospector\Intermediate\Build\Win64\x64\project_prospectorEditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h"
+/Fp"E:\GitRepos\project_prospector\Intermediate\Build\Win64\x64\project_prospectorEditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h.pch"
+/Fo"E:\GitRepos\project_prospector\Plugins\GameJoltAPI\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameJoltAPI\Module.GameJoltAPI.cpp.obj"
+/sourceDependencies "E:\GitRepos\project_prospector\Plugins\GameJoltAPI\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameJoltAPI\Module.GameJoltAPI.cpp.dep.json"
+@"E:\GitRepos\project_prospector\Plugins\GameJoltAPI\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameJoltAPI\GameJoltAPI.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi
