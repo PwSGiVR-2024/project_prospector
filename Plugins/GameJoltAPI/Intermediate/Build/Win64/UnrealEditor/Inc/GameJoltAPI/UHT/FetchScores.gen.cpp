@@ -42,13 +42,13 @@ void EmptyLinkFunctionForGeneratedCodeFetchScores() {}
 	};
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UDelegateFunction_GameJoltAPI_FetchScoresSuccessDeleagte__DelegateSignature_Statics::NewProp_Error_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UDelegateFunction_GameJoltAPI_FetchScoresSuccessDeleagte__DelegateSignature_Statics::NewProp_Error = { "Error", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_GameJoltAPI_eventFetchScoresSuccessDeleagte_Parms, Error), Z_Construct_UEnum_GameJoltAPI_EGJErrors, METADATA_PARAMS(0, nullptr) }; // 1852560761
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_GameJoltAPI_FetchScoresSuccessDeleagte__DelegateSignature_Statics::NewProp_Scores_Inner = { "Scores", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FScoreInfo, METADATA_PARAMS(0, nullptr) }; // 978238128
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_GameJoltAPI_FetchScoresSuccessDeleagte__DelegateSignature_Statics::NewProp_Scores_Inner = { "Scores", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FScoreInfo, METADATA_PARAMS(0, nullptr) }; // 1122849245
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_GameJoltAPI_FetchScoresSuccessDeleagte__DelegateSignature_Statics::NewProp_Scores_MetaData[] = {
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UDelegateFunction_GameJoltAPI_FetchScoresSuccessDeleagte__DelegateSignature_Statics::NewProp_Scores = { "Scores", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_GameJoltAPI_eventFetchScoresSuccessDeleagte_Parms, Scores), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_GameJoltAPI_FetchScoresSuccessDeleagte__DelegateSignature_Statics::NewProp_Scores_MetaData), Z_Construct_UDelegateFunction_GameJoltAPI_FetchScoresSuccessDeleagte__DelegateSignature_Statics::NewProp_Scores_MetaData) }; // 978238128
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UDelegateFunction_GameJoltAPI_FetchScoresSuccessDeleagte__DelegateSignature_Statics::NewProp_Scores = { "Scores", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_GameJoltAPI_eventFetchScoresSuccessDeleagte_Parms, Scores), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_GameJoltAPI_FetchScoresSuccessDeleagte__DelegateSignature_Statics::NewProp_Scores_MetaData), Z_Construct_UDelegateFunction_GameJoltAPI_FetchScoresSuccessDeleagte__DelegateSignature_Statics::NewProp_Scores_MetaData) }; // 1122849245
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_GameJoltAPI_FetchScoresSuccessDeleagte__DelegateSignature_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_GameJoltAPI_FetchScoresSuccessDeleagte__DelegateSignature_Statics::NewProp_Error_Underlying,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_GameJoltAPI_FetchScoresSuccessDeleagte__DelegateSignature_Statics::NewProp_Error,
@@ -220,7 +220,7 @@ void FFetchScoresSuccessDeleagte_DelegateWrapper(const FMulticastScriptDelegate&
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UFetchScores_FetchScores_Statics::NewProp_TableID = { "TableID", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FetchScores_eventFetchScores_Parms, TableID), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFetchScores_FetchScores_Statics::NewProp_TableID_MetaData), Z_Construct_UFunction_UFetchScores_FetchScores_Statics::NewProp_TableID_MetaData) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UFetchScores_FetchScores_Statics::NewProp_Filter_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UFetchScores_FetchScores_Statics::NewProp_Filter = { "Filter", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FetchScores_eventFetchScores_Parms, Filter), Z_Construct_UEnum_GameJoltAPI_EGJScoreFilter, METADATA_PARAMS(0, nullptr) }; // 2587997971
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UFetchScores_FetchScores_Statics::NewProp_Filter = { "Filter", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FetchScores_eventFetchScores_Parms, Filter), Z_Construct_UEnum_GameJoltAPI_EGJScoreFilter, METADATA_PARAMS(0, nullptr) }; // 2300095023
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UFetchScores_FetchScores_Statics::NewProp_Guest_MetaData[] = {
 		{ "NativeConst", "" },
@@ -253,7 +253,9 @@ void FFetchScoresSuccessDeleagte_DelegateWrapper(const FMulticastScriptDelegate&
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UFetchScores_FetchScores_Statics::Function_MetaDataParams[] = {
 		{ "BlueprintInternalUseOnly", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Returns a list of scores either for a user or globally for a game.\n\x09 * The maximum amount of scores you can retrieve is 100.\n\x09 * @param Limit The number of scores you'd like to return. The maximum amount of scores you can retrieve is 100.\n\x09 * @param TableID (optional) The scoreboard ID. Uses the game's main board if none is set.\n\x09 * @param Filter Whether you want to fetch scores by all users, a specific guest or the current user\n\x09 * @param Guest Allows you to fetch scores by a specific guest name.\n\x09 * @param BetterThan Fetch only scores better than this score sort value. Mutually exclusive with WorseThan.\n\x09 * @param WorseThan Fetch only scores worse than this score sort value. Mutually exclusive with BetterThan.\n\x09 */" },
+#endif
 		{ "CPP_Default_BetterThan", "0" },
 		{ "CPP_Default_Filter", "all" },
 		{ "CPP_Default_Guest", "" },
@@ -261,7 +263,9 @@ void FFetchScoresSuccessDeleagte_DelegateWrapper(const FMulticastScriptDelegate&
 		{ "CPP_Default_TableID", "0" },
 		{ "CPP_Default_WorseThan", "0" },
 		{ "ModuleRelativePath", "Public/AsyncActions/Scores/FetchScores.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns a list of scores either for a user or globally for a game.\nThe maximum amount of scores you can retrieve is 100.\n@param Limit The number of scores you'd like to return. The maximum amount of scores you can retrieve is 100.\n@param TableID (optional) The scoreboard ID. Uses the game's main board if none is set.\n@param Filter Whether you want to fetch scores by all users, a specific guest or the current user\n@param Guest Allows you to fetch scores by a specific guest name.\n@param BetterThan Fetch only scores better than this score sort value. Mutually exclusive with WorseThan.\n@param WorseThan Fetch only scores worse than this score sort value. Mutually exclusive with BetterThan." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFetchScores_FetchScores_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFetchScores, nullptr, "FetchScores", nullptr, nullptr, Z_Construct_UFunction_UFetchScores_FetchScores_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFetchScores_FetchScores_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFetchScores_FetchScores_Statics::FetchScores_eventFetchScores_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFetchScores_FetchScores_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFetchScores_FetchScores_Statics::Function_MetaDataParams) };
@@ -303,15 +307,19 @@ void FFetchScoresSuccessDeleagte_DelegateWrapper(const FMulticastScriptDelegate&
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFetchScores_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UFetchScores_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UFetchScores_Callback, "Callback" }, // 3501596184
-		{ &Z_Construct_UFunction_UFetchScores_FetchScores, "FetchScores" }, // 2147791596
+		{ &Z_Construct_UFunction_UFetchScores_FetchScores, "FetchScores" }, // 26227208
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFetchScores_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFetchScores_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Returns a list of scores\n */" },
+#endif
 		{ "IncludePath", "AsyncActions/Scores/FetchScores.h" },
 		{ "ModuleRelativePath", "Public/AsyncActions/Scores/FetchScores.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns a list of scores" },
+#endif
 	};
 #endif
 #if WITH_METADATA
@@ -319,7 +327,7 @@ void FFetchScoresSuccessDeleagte_DelegateWrapper(const FMulticastScriptDelegate&
 		{ "ModuleRelativePath", "Public/AsyncActions/Scores/FetchScores.h" },
 	};
 #endif
-	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UFetchScores_Statics::NewProp_Success = { "Success", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFetchScores, Success), Z_Construct_UDelegateFunction_GameJoltAPI_FetchScoresSuccessDeleagte__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFetchScores_Statics::NewProp_Success_MetaData), Z_Construct_UClass_UFetchScores_Statics::NewProp_Success_MetaData) }; // 2067109173
+	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UFetchScores_Statics::NewProp_Success = { "Success", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFetchScores, Success), Z_Construct_UDelegateFunction_GameJoltAPI_FetchScoresSuccessDeleagte__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFetchScores_Statics::NewProp_Success_MetaData), Z_Construct_UClass_UFetchScores_Statics::NewProp_Success_MetaData) }; // 2531019751
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UFetchScores_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFetchScores_Statics::NewProp_Success,
 	};
@@ -357,15 +365,15 @@ void FFetchScoresSuccessDeleagte_DelegateWrapper(const FMulticastScriptDelegate&
 	UFetchScores::UFetchScores(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UFetchScores);
 	UFetchScores::~UFetchScores() {}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_FetchScores_h_Statics
+	struct Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_FetchScores_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_FetchScores_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UFetchScores, UFetchScores::StaticClass, TEXT("UFetchScores"), &Z_Registration_Info_UClass_UFetchScores, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFetchScores), 1998619990U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_FetchScores_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UFetchScores, UFetchScores::StaticClass, TEXT("UFetchScores"), &Z_Registration_Info_UClass_UFetchScores, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFetchScores), 1056619180U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_FetchScores_h_3356928689(TEXT("/Script/GameJoltAPI"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_FetchScores_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_FetchScores_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_FetchScores_h_3818452656(TEXT("/Script/GameJoltAPI"),
+		Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_FetchScores_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_FetchScores_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

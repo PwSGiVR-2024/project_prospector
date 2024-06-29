@@ -109,9 +109,13 @@ void FAutoLoginSuccesDelegate_DelegateWrapper(const FMulticastScriptDelegate& Au
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAutoLogin_AutoLogin_Statics::Function_MetaDataParams[] = {
 		{ "BlueprintInternalUseOnly", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Looks for a .gj-credentials created by the GameJolt Client in order to login the user automatically.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/AsyncActions/Users/AutoLogin.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Looks for a .gj-credentials created by the GameJolt Client in order to login the user automatically." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UAutoLogin_AutoLogin_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAutoLogin, nullptr, "AutoLogin", nullptr, nullptr, Z_Construct_UFunction_UAutoLogin_AutoLogin_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UAutoLogin_AutoLogin_Statics::PropPointers), sizeof(Z_Construct_UFunction_UAutoLogin_AutoLogin_Statics::AutoLogin_eventAutoLogin_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UAutoLogin_AutoLogin_Statics::Function_MetaDataParams), Z_Construct_UFunction_UAutoLogin_AutoLogin_Statics::Function_MetaDataParams) };
@@ -203,13 +207,15 @@ void FAutoLoginSuccesDelegate_DelegateWrapper(const FMulticastScriptDelegate& Au
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UAutoLogin_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UAutoLogin_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UAutoLogin_AutoLogin, "AutoLogin" }, // 3076390924
+		{ &Z_Construct_UFunction_UAutoLogin_AutoLogin, "AutoLogin" }, // 2615198611
 		{ &Z_Construct_UFunction_UAutoLogin_Callback, "Callback" }, // 3359784069
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UAutoLogin_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAutoLogin_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * \n */" },
+#endif
 		{ "IncludePath", "AsyncActions/Users/AutoLogin.h" },
 		{ "ModuleRelativePath", "Public/AsyncActions/Users/AutoLogin.h" },
 	};
@@ -257,15 +263,15 @@ void FAutoLoginSuccesDelegate_DelegateWrapper(const FMulticastScriptDelegate& Au
 	UAutoLogin::UAutoLogin(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UAutoLogin);
 	UAutoLogin::~UAutoLogin() {}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Users_AutoLogin_h_Statics
+	struct Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Users_AutoLogin_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Users_AutoLogin_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UAutoLogin, UAutoLogin::StaticClass, TEXT("UAutoLogin"), &Z_Registration_Info_UClass_UAutoLogin, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAutoLogin), 3289396729U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Users_AutoLogin_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UAutoLogin, UAutoLogin::StaticClass, TEXT("UAutoLogin"), &Z_Registration_Info_UClass_UAutoLogin, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAutoLogin), 766145175U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Users_AutoLogin_h_3001926912(TEXT("/Script/GameJoltAPI"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Users_AutoLogin_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Users_AutoLogin_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Users_AutoLogin_h_50355973(TEXT("/Script/GameJoltAPI"),
+		Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Users_AutoLogin_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Users_AutoLogin_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -243,11 +243,15 @@ void EmptyLinkFunctionForGeneratedCodeGameJolt() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGameJolt_Initialize_Statics::Function_MetaDataParams[] = {
 		{ "AdvancedDisplay", "Server, Version" },
 		{ "Category", "GameJoltAPI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Sets required information for all API requests\n     * @param Game_ID Required. Can be found in your game's dashboard\n     * @param Private_Key Required. Can be found in your game's dashboard\n     * @param Server Optional. Default is https://api.gamejolt.com/api/game/\n     * @param Version Optional. Default is v1_2\n     */" },
+#endif
 		{ "CPP_Default_Server", "" },
 		{ "CPP_Default_Version", "" },
 		{ "ModuleRelativePath", "Public/GameJolt.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sets required information for all API requests\n@param Game_ID Required. Can be found in your game's dashboard\n@param Private_Key Required. Can be found in your game's dashboard\n@param Server Optional. Default is https://api.gamejolt.com/api/game/\n@param Version Optional. Default is v1_2" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGameJolt_Initialize_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGameJolt, nullptr, "Initialize", nullptr, nullptr, Z_Construct_UFunction_UGameJolt_Initialize_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGameJolt_Initialize_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGameJolt_Initialize_Statics::GameJolt_eventInitialize_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGameJolt_Initialize_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGameJolt_Initialize_Statics::Function_MetaDataParams) };
@@ -349,7 +353,7 @@ void EmptyLinkFunctionForGeneratedCodeGameJolt() {}
 		{ &Z_Construct_UFunction_UGameJolt_GetGameID, "GetGameID" }, // 2753394724
 		{ &Z_Construct_UFunction_UGameJolt_GetPrivateKey, "GetPrivateKey" }, // 1048784550
 		{ &Z_Construct_UFunction_UGameJolt_GetUsername, "GetUsername" }, // 1966411170
-		{ &Z_Construct_UFunction_UGameJolt_Initialize, "Initialize" }, // 2495931945
+		{ &Z_Construct_UFunction_UGameJolt_Initialize, "Initialize" }, // 1742974069
 		{ &Z_Construct_UFunction_UGameJolt_IsLoggedIn, "IsLoggedIn" }, // 1377999283
 		{ &Z_Construct_UFunction_UGameJolt_Logout, "Logout" }, // 3398326518
 	};
@@ -357,12 +361,16 @@ void EmptyLinkFunctionForGeneratedCodeGameJolt() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGameJolt_Statics::Class_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Class to interact with the GameJolt-API.\n * Usable from Blueprint and C++.\n */" },
+#endif
 		{ "IncludePath", "GameJolt.h" },
 		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "Public/GameJolt.h" },
 		{ "ObjectInitializerConstructorDeclared", "" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Class to interact with the GameJolt-API.\nUsable from Blueprint and C++." },
+#endif
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UGameJolt_Statics::StaticCppClassTypeInfo = {
@@ -397,15 +405,15 @@ void EmptyLinkFunctionForGeneratedCodeGameJolt() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGameJolt);
 	UGameJolt::~UGameJolt() {}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJolt_h_Statics
+	struct Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJolt_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJolt_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UGameJolt, UGameJolt::StaticClass, TEXT("UGameJolt"), &Z_Registration_Info_UClass_UGameJolt, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGameJolt), 222046295U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJolt_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UGameJolt, UGameJolt::StaticClass, TEXT("UGameJolt"), &Z_Registration_Info_UClass_UGameJolt, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGameJolt), 834062580U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJolt_h_4144417827(TEXT("/Script/GameJoltAPI"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJolt_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJolt_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJolt_h_4159914254(TEXT("/Script/GameJoltAPI"),
+		Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJolt_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJolt_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

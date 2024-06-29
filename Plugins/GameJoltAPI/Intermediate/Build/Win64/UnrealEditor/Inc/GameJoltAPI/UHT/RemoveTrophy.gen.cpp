@@ -220,10 +220,14 @@ void FRemoveTrophySuccessDelegate_DelegateWrapper(const FMulticastScriptDelegate
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_URemoveTrophy_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_URemoveTrophy_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Removes a rewarded trophy from the current user.\n */" },
+#endif
 		{ "IncludePath", "AsyncActions/Trophies/RemoveTrophy.h" },
 		{ "ModuleRelativePath", "Public/AsyncActions/Trophies/RemoveTrophy.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Removes a rewarded trophy from the current user." },
+#endif
 	};
 #endif
 #if WITH_METADATA
@@ -269,15 +273,15 @@ void FRemoveTrophySuccessDelegate_DelegateWrapper(const FMulticastScriptDelegate
 	URemoveTrophy::URemoveTrophy(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(URemoveTrophy);
 	URemoveTrophy::~URemoveTrophy() {}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Trophies_RemoveTrophy_h_Statics
+	struct Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Trophies_RemoveTrophy_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Trophies_RemoveTrophy_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_URemoveTrophy, URemoveTrophy::StaticClass, TEXT("URemoveTrophy"), &Z_Registration_Info_UClass_URemoveTrophy, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(URemoveTrophy), 378933048U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Trophies_RemoveTrophy_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_URemoveTrophy, URemoveTrophy::StaticClass, TEXT("URemoveTrophy"), &Z_Registration_Info_UClass_URemoveTrophy, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(URemoveTrophy), 3724697076U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Trophies_RemoveTrophy_h_3945407048(TEXT("/Script/GameJoltAPI"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Trophies_RemoveTrophy_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Trophies_RemoveTrophy_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Trophies_RemoveTrophy_h_931798015(TEXT("/Script/GameJoltAPI"),
+		Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Trophies_RemoveTrophy_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Trophies_RemoveTrophy_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

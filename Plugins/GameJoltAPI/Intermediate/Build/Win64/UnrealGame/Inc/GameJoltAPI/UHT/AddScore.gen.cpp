@@ -174,12 +174,16 @@ void FAddScoreSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegate& Ad
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAddScore_AddScore_Statics::Function_MetaDataParams[] = {
 		{ "BlueprintInternalUseOnly", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * You can either store a score for a user or a guest.\n\x09 * If you're storing for a (logged in) user, the plugin will handle that for you.\n\x09 * If you're storing for a guest, you must pass in the guest parameter.\n\x09 * \n\x09 * @param Score A string representing the score. (500 Jumps)\n\x09 * @param ScoreSort An integer for sorting the score (500)\n\x09 * @param TableID (optional) The scoreboard ID. Uses the game's main board if none is set\n\x09 * @param Guest Only use this when there is no user logged in and you want to save a score for a guest.\n\x09 * @param ExtraData (optional) If there's any extra data you would like to store as a string, you can use this.\n\x09 */" },
+#endif
 		{ "CPP_Default_ExtraData", "" },
 		{ "CPP_Default_Guest", "" },
 		{ "CPP_Default_TableID", "0" },
 		{ "ModuleRelativePath", "Public/AsyncActions/Scores/AddScore.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "You can either store a score for a user or a guest.\nIf you're storing for a (logged in) user, the plugin will handle that for you.\nIf you're storing for a guest, you must pass in the guest parameter.\n\n@param Score A string representing the score. (500 Jumps)\n@param ScoreSort An integer for sorting the score (500)\n@param TableID (optional) The scoreboard ID. Uses the game's main board if none is set\n@param Guest Only use this when there is no user logged in and you want to save a score for a guest.\n@param ExtraData (optional) If there's any extra data you would like to store as a string, you can use this." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UAddScore_AddScore_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAddScore, nullptr, "AddScore", nullptr, nullptr, Z_Construct_UFunction_UAddScore_AddScore_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UAddScore_AddScore_Statics::PropPointers), sizeof(Z_Construct_UFunction_UAddScore_AddScore_Statics::AddScore_eventAddScore_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UAddScore_AddScore_Statics::Function_MetaDataParams), Z_Construct_UFunction_UAddScore_AddScore_Statics::Function_MetaDataParams) };
@@ -271,16 +275,20 @@ void FAddScoreSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegate& Ad
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UAddScore_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UAddScore_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UAddScore_AddScore, "AddScore" }, // 1804045173
+		{ &Z_Construct_UFunction_UAddScore_AddScore, "AddScore" }, // 1332710436
 		{ &Z_Construct_UFunction_UAddScore_Callback, "Callback" }, // 22121118
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UAddScore_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAddScore_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Adds a score for a user or guest.\n */" },
+#endif
 		{ "IncludePath", "AsyncActions/Scores/AddScore.h" },
 		{ "ModuleRelativePath", "Public/AsyncActions/Scores/AddScore.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Adds a score for a user or guest." },
+#endif
 	};
 #endif
 #if WITH_METADATA
@@ -326,15 +334,15 @@ void FAddScoreSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegate& Ad
 	UAddScore::UAddScore(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UAddScore);
 	UAddScore::~UAddScore() {}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_AddScore_h_Statics
+	struct Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_AddScore_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_AddScore_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UAddScore, UAddScore::StaticClass, TEXT("UAddScore"), &Z_Registration_Info_UClass_UAddScore, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAddScore), 601538094U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_AddScore_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UAddScore, UAddScore::StaticClass, TEXT("UAddScore"), &Z_Registration_Info_UClass_UAddScore, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAddScore), 1649462229U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_AddScore_h_2861368279(TEXT("/Script/GameJoltAPI"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_AddScore_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_AddScore_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_AddScore_h_3480105843(TEXT("/Script/GameJoltAPI"),
+		Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_AddScore_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_AddScore_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

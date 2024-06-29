@@ -192,10 +192,14 @@ void FGetRankSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegate& Get
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGetRank_GetRank_Statics::Function_MetaDataParams[] = {
 		{ "BlueprintInternalUseOnly", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Returns the rank of a particular score on a score table.\n\x09 * If the score is not represented by any rank on the score table, the request will return the rank that is closest to the requested score.\n\x09 * \n\x09 * @param Sort This is a numerical sorting value that is represented by a rank on the score table.\n\x09 * @param TableID (optional) The scoreboard ID. Uses the game's main board if none is set\n\x09 */" },
+#endif
 		{ "CPP_Default_TableID", "0" },
 		{ "ModuleRelativePath", "Public/AsyncActions/Scores/GetRank.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns the rank of a particular score on a score table.\nIf the score is not represented by any rank on the score table, the request will return the rank that is closest to the requested score.\n\n@param Sort This is a numerical sorting value that is represented by a rank on the score table.\n@param TableID (optional) The scoreboard ID. Uses the game's main board if none is set" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGetRank_GetRank_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGetRank, nullptr, "GetRank", nullptr, nullptr, Z_Construct_UFunction_UGetRank_GetRank_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGetRank_GetRank_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGetRank_GetRank_Statics::GetRank_eventGetRank_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGetRank_GetRank_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGetRank_GetRank_Statics::Function_MetaDataParams) };
@@ -237,15 +241,19 @@ void FGetRankSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegate& Get
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGetRank_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UGetRank_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UGetRank_Callback, "Callback" }, // 1308841796
-		{ &Z_Construct_UFunction_UGetRank_GetRank, "GetRank" }, // 3560622391
+		{ &Z_Construct_UFunction_UGetRank_GetRank, "GetRank" }, // 33180787
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGetRank_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGetRank_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Returns the rank of a particular score on a score table.\n */" },
+#endif
 		{ "IncludePath", "AsyncActions/Scores/GetRank.h" },
 		{ "ModuleRelativePath", "Public/AsyncActions/Scores/GetRank.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns the rank of a particular score on a score table." },
+#endif
 	};
 #endif
 #if WITH_METADATA
@@ -291,15 +299,15 @@ void FGetRankSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegate& Get
 	UGetRank::UGetRank(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGetRank);
 	UGetRank::~UGetRank() {}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_GetRank_h_Statics
+	struct Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_GetRank_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_GetRank_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UGetRank, UGetRank::StaticClass, TEXT("UGetRank"), &Z_Registration_Info_UClass_UGetRank, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGetRank), 2138107200U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_GetRank_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UGetRank, UGetRank::StaticClass, TEXT("UGetRank"), &Z_Registration_Info_UClass_UGetRank, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGetRank), 1542871526U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_GetRank_h_1055051201(TEXT("/Script/GameJoltAPI"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_GetRank_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_GetRank_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_GetRank_h_1133025666(TEXT("/Script/GameJoltAPI"),
+		Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_GetRank_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_GetRank_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

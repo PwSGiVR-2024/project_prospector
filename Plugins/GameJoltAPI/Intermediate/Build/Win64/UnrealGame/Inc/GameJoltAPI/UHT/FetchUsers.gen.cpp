@@ -41,13 +41,13 @@ void EmptyLinkFunctionForGeneratedCodeFetchUsers() {}
 	};
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UDelegateFunction_GameJoltAPI_FetchUsersSuccessDelegate__DelegateSignature_Statics::NewProp_Error_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UDelegateFunction_GameJoltAPI_FetchUsersSuccessDelegate__DelegateSignature_Statics::NewProp_Error = { "Error", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_GameJoltAPI_eventFetchUsersSuccessDelegate_Parms, Error), Z_Construct_UEnum_GameJoltAPI_EGJErrors, METADATA_PARAMS(0, nullptr) }; // 1852560761
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_GameJoltAPI_FetchUsersSuccessDelegate__DelegateSignature_Statics::NewProp_Users_Inner = { "Users", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FUserInfo, METADATA_PARAMS(0, nullptr) }; // 34347669
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_GameJoltAPI_FetchUsersSuccessDelegate__DelegateSignature_Statics::NewProp_Users_Inner = { "Users", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FUserInfo, METADATA_PARAMS(0, nullptr) }; // 2202402224
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_GameJoltAPI_FetchUsersSuccessDelegate__DelegateSignature_Statics::NewProp_Users_MetaData[] = {
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UDelegateFunction_GameJoltAPI_FetchUsersSuccessDelegate__DelegateSignature_Statics::NewProp_Users = { "Users", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_GameJoltAPI_eventFetchUsersSuccessDelegate_Parms, Users), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_GameJoltAPI_FetchUsersSuccessDelegate__DelegateSignature_Statics::NewProp_Users_MetaData), Z_Construct_UDelegateFunction_GameJoltAPI_FetchUsersSuccessDelegate__DelegateSignature_Statics::NewProp_Users_MetaData) }; // 34347669
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UDelegateFunction_GameJoltAPI_FetchUsersSuccessDelegate__DelegateSignature_Statics::NewProp_Users = { "Users", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_GameJoltAPI_eventFetchUsersSuccessDelegate_Parms, Users), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_GameJoltAPI_FetchUsersSuccessDelegate__DelegateSignature_Statics::NewProp_Users_MetaData), Z_Construct_UDelegateFunction_GameJoltAPI_FetchUsersSuccessDelegate__DelegateSignature_Statics::NewProp_Users_MetaData) }; // 2202402224
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_GameJoltAPI_FetchUsersSuccessDelegate__DelegateSignature_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_GameJoltAPI_FetchUsersSuccessDelegate__DelegateSignature_Statics::NewProp_Error_Underlying,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_GameJoltAPI_FetchUsersSuccessDelegate__DelegateSignature_Statics::NewProp_Error,
@@ -204,10 +204,14 @@ void FFetchUsersSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegate& 
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UFetchUsers_FetchUsers_ID_Statics::Function_MetaDataParams[] = {
 		{ "BlueprintInternalUseOnly", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Returns a user's data.\n\x09 * @param UserIDs The ID(s) of the user(s) whose data you'd like to fetch.\n\x09 */" },
+#endif
 		{ "DisplayName", "Fetch Users by ID" },
 		{ "ModuleRelativePath", "Public/AsyncActions/Users/FetchUsers.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns a user's data.\n@param UserIDs The ID(s) of the user(s) whose data you'd like to fetch." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFetchUsers_FetchUsers_ID_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFetchUsers, nullptr, "FetchUsers_ID", nullptr, nullptr, Z_Construct_UFunction_UFetchUsers_FetchUsers_ID_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFetchUsers_FetchUsers_ID_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFetchUsers_FetchUsers_ID_Statics::FetchUsers_eventFetchUsers_ID_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFetchUsers_FetchUsers_ID_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFetchUsers_FetchUsers_ID_Statics::Function_MetaDataParams) };
@@ -254,10 +258,14 @@ void FFetchUsersSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegate& 
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UFetchUsers_FetchUsers_Name_Statics::Function_MetaDataParams[] = {
 		{ "BlueprintInternalUseOnly", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Returns a user's data.\n\x09 * @param UserNames The name of the userwhose data you'd like to fetch.\n\x09 */" },
+#endif
 		{ "DisplayName", "Fetch User by Name" },
 		{ "ModuleRelativePath", "Public/AsyncActions/Users/FetchUsers.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns a user's data.\n@param UserNames The name of the userwhose data you'd like to fetch." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFetchUsers_FetchUsers_Name_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFetchUsers, nullptr, "FetchUsers_Name", nullptr, nullptr, Z_Construct_UFunction_UFetchUsers_FetchUsers_Name_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFetchUsers_FetchUsers_Name_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFetchUsers_FetchUsers_Name_Statics::FetchUsers_eventFetchUsers_Name_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFetchUsers_FetchUsers_Name_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFetchUsers_FetchUsers_Name_Statics::Function_MetaDataParams) };
@@ -299,16 +307,20 @@ void FFetchUsersSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegate& 
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFetchUsers_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UFetchUsers_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UFetchUsers_Callback, "Callback" }, // 792231239
-		{ &Z_Construct_UFunction_UFetchUsers_FetchUsers_ID, "FetchUsers_ID" }, // 2240892486
-		{ &Z_Construct_UFunction_UFetchUsers_FetchUsers_Name, "FetchUsers_Name" }, // 4138510662
+		{ &Z_Construct_UFunction_UFetchUsers_FetchUsers_ID, "FetchUsers_ID" }, // 3280896298
+		{ &Z_Construct_UFunction_UFetchUsers_FetchUsers_Name, "FetchUsers_Name" }, // 253616069
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFetchUsers_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFetchUsers_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Returns a user's data.\n */" },
+#endif
 		{ "IncludePath", "AsyncActions/Users/FetchUsers.h" },
 		{ "ModuleRelativePath", "Public/AsyncActions/Users/FetchUsers.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns a user's data." },
+#endif
 	};
 #endif
 #if WITH_METADATA
@@ -316,7 +328,7 @@ void FFetchUsersSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegate& 
 		{ "ModuleRelativePath", "Public/AsyncActions/Users/FetchUsers.h" },
 	};
 #endif
-	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UFetchUsers_Statics::NewProp_Success = { "Success", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFetchUsers, Success), Z_Construct_UDelegateFunction_GameJoltAPI_FetchUsersSuccessDelegate__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFetchUsers_Statics::NewProp_Success_MetaData), Z_Construct_UClass_UFetchUsers_Statics::NewProp_Success_MetaData) }; // 3042751652
+	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UFetchUsers_Statics::NewProp_Success = { "Success", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFetchUsers, Success), Z_Construct_UDelegateFunction_GameJoltAPI_FetchUsersSuccessDelegate__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFetchUsers_Statics::NewProp_Success_MetaData), Z_Construct_UClass_UFetchUsers_Statics::NewProp_Success_MetaData) }; // 2453792205
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UFetchUsers_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFetchUsers_Statics::NewProp_Success,
 	};
@@ -354,15 +366,15 @@ void FFetchUsersSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegate& 
 	UFetchUsers::UFetchUsers(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UFetchUsers);
 	UFetchUsers::~UFetchUsers() {}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Users_FetchUsers_h_Statics
+	struct Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Users_FetchUsers_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Users_FetchUsers_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UFetchUsers, UFetchUsers::StaticClass, TEXT("UFetchUsers"), &Z_Registration_Info_UClass_UFetchUsers, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFetchUsers), 2057755305U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Users_FetchUsers_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UFetchUsers, UFetchUsers::StaticClass, TEXT("UFetchUsers"), &Z_Registration_Info_UClass_UFetchUsers, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFetchUsers), 3431536912U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Users_FetchUsers_h_844648442(TEXT("/Script/GameJoltAPI"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Users_FetchUsers_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Users_FetchUsers_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Users_FetchUsers_h_3652801407(TEXT("/Script/GameJoltAPI"),
+		Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Users_FetchUsers_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Users_FetchUsers_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

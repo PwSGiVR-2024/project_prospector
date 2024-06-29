@@ -14,35 +14,35 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define GAMEJOLTAPI_GameJoltStructs_generated_h
 
-#define FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltStructs_h_13_GENERATED_BODY \
+#define FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltStructs_h_13_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FUserInfo_Statics; \
 	GAMEJOLTAPI_API static class UScriptStruct* StaticStruct();
 
 
 template<> GAMEJOLTAPI_API UScriptStruct* StaticStruct<struct FUserInfo>();
 
-#define FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltStructs_h_78_GENERATED_BODY \
+#define FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltStructs_h_78_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FTrophyInfo_Statics; \
 	GAMEJOLTAPI_API static class UScriptStruct* StaticStruct();
 
 
 template<> GAMEJOLTAPI_API UScriptStruct* StaticStruct<struct FTrophyInfo>();
 
-#define FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltStructs_h_126_GENERATED_BODY \
+#define FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltStructs_h_126_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FScoreInfo_Statics; \
 	GAMEJOLTAPI_API static class UScriptStruct* StaticStruct();
 
 
 template<> GAMEJOLTAPI_API UScriptStruct* StaticStruct<struct FScoreInfo>();
 
-#define FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltStructs_h_179_GENERATED_BODY \
+#define FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltStructs_h_179_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FScoreTableInfo_Statics; \
 	GAMEJOLTAPI_API static class UScriptStruct* StaticStruct();
 
 
 template<> GAMEJOLTAPI_API UScriptStruct* StaticStruct<struct FScoreTableInfo>();
 
-#define FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltStructs_h_212_GENERATED_BODY \
+#define FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltStructs_h_212_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FServerTime_Statics; \
 	GAMEJOLTAPI_API static class UScriptStruct* StaticStruct();
 
@@ -50,7 +50,7 @@ template<> GAMEJOLTAPI_API UScriptStruct* StaticStruct<struct FScoreTableInfo>()
 template<> GAMEJOLTAPI_API UScriptStruct* StaticStruct<struct FServerTime>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltStructs_h
+#define CURRENT_FILE_ID FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltStructs_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

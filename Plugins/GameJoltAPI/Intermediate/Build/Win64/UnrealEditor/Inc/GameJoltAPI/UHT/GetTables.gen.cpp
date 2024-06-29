@@ -41,13 +41,13 @@ void EmptyLinkFunctionForGeneratedCodeGetTables() {}
 	};
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UDelegateFunction_GameJoltAPI_GetTablesSuccessDelegate__DelegateSignature_Statics::NewProp_Error_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UDelegateFunction_GameJoltAPI_GetTablesSuccessDelegate__DelegateSignature_Statics::NewProp_Error = { "Error", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_GameJoltAPI_eventGetTablesSuccessDelegate_Parms, Error), Z_Construct_UEnum_GameJoltAPI_EGJErrors, METADATA_PARAMS(0, nullptr) }; // 1852560761
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_GameJoltAPI_GetTablesSuccessDelegate__DelegateSignature_Statics::NewProp_Tables_Inner = { "Tables", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FScoreTableInfo, METADATA_PARAMS(0, nullptr) }; // 2716036949
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_GameJoltAPI_GetTablesSuccessDelegate__DelegateSignature_Statics::NewProp_Tables_Inner = { "Tables", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FScoreTableInfo, METADATA_PARAMS(0, nullptr) }; // 2846959055
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_GameJoltAPI_GetTablesSuccessDelegate__DelegateSignature_Statics::NewProp_Tables_MetaData[] = {
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UDelegateFunction_GameJoltAPI_GetTablesSuccessDelegate__DelegateSignature_Statics::NewProp_Tables = { "Tables", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_GameJoltAPI_eventGetTablesSuccessDelegate_Parms, Tables), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_GameJoltAPI_GetTablesSuccessDelegate__DelegateSignature_Statics::NewProp_Tables_MetaData), Z_Construct_UDelegateFunction_GameJoltAPI_GetTablesSuccessDelegate__DelegateSignature_Statics::NewProp_Tables_MetaData) }; // 2716036949
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UDelegateFunction_GameJoltAPI_GetTablesSuccessDelegate__DelegateSignature_Statics::NewProp_Tables = { "Tables", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_GameJoltAPI_eventGetTablesSuccessDelegate_Parms, Tables), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_GameJoltAPI_GetTablesSuccessDelegate__DelegateSignature_Statics::NewProp_Tables_MetaData), Z_Construct_UDelegateFunction_GameJoltAPI_GetTablesSuccessDelegate__DelegateSignature_Statics::NewProp_Tables_MetaData) }; // 2846959055
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_GameJoltAPI_GetTablesSuccessDelegate__DelegateSignature_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_GameJoltAPI_GetTablesSuccessDelegate__DelegateSignature_Statics::NewProp_Error_Underlying,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_GameJoltAPI_GetTablesSuccessDelegate__DelegateSignature_Statics::NewProp_Error,
@@ -179,9 +179,13 @@ void FGetTablesSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegate& G
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGetTables_GetTables_Statics::Function_MetaDataParams[] = {
 		{ "BlueprintInternalUseOnly", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Returns a list of high score tables for a game.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/AsyncActions/Scores/GetTables.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns a list of high score tables for a game." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGetTables_GetTables_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGetTables, nullptr, "GetTables", nullptr, nullptr, Z_Construct_UFunction_UGetTables_GetTables_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGetTables_GetTables_Statics::PropPointers), sizeof(Z_Construct_UFunction_UGetTables_GetTables_Statics::GetTables_eventGetTables_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGetTables_GetTables_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGetTables_GetTables_Statics::Function_MetaDataParams) };
@@ -223,15 +227,19 @@ void FGetTablesSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegate& G
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGetTables_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UGetTables_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UGetTables_Callback, "Callback" }, // 3237727754
-		{ &Z_Construct_UFunction_UGetTables_GetTables, "GetTables" }, // 2098330324
+		{ &Z_Construct_UFunction_UGetTables_GetTables, "GetTables" }, // 1260675572
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGetTables_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGetTables_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Returns a list of high score tables for a game.\n */" },
+#endif
 		{ "IncludePath", "AsyncActions/Scores/GetTables.h" },
 		{ "ModuleRelativePath", "Public/AsyncActions/Scores/GetTables.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns a list of high score tables for a game." },
+#endif
 	};
 #endif
 #if WITH_METADATA
@@ -239,7 +247,7 @@ void FGetTablesSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegate& G
 		{ "ModuleRelativePath", "Public/AsyncActions/Scores/GetTables.h" },
 	};
 #endif
-	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UGetTables_Statics::NewProp_Success = { "Success", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGetTables, Success), Z_Construct_UDelegateFunction_GameJoltAPI_GetTablesSuccessDelegate__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGetTables_Statics::NewProp_Success_MetaData), Z_Construct_UClass_UGetTables_Statics::NewProp_Success_MetaData) }; // 1732100634
+	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UGetTables_Statics::NewProp_Success = { "Success", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGetTables, Success), Z_Construct_UDelegateFunction_GameJoltAPI_GetTablesSuccessDelegate__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGetTables_Statics::NewProp_Success_MetaData), Z_Construct_UClass_UGetTables_Statics::NewProp_Success_MetaData) }; // 435937430
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UGetTables_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGetTables_Statics::NewProp_Success,
 	};
@@ -277,15 +285,15 @@ void FGetTablesSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegate& G
 	UGetTables::UGetTables(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGetTables);
 	UGetTables::~UGetTables() {}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_GetTables_h_Statics
+	struct Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_GetTables_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_GetTables_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UGetTables, UGetTables::StaticClass, TEXT("UGetTables"), &Z_Registration_Info_UClass_UGetTables, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGetTables), 2864243689U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_GetTables_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UGetTables, UGetTables::StaticClass, TEXT("UGetTables"), &Z_Registration_Info_UClass_UGetTables, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGetTables), 2968008575U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_GetTables_h_1371580134(TEXT("/Script/GameJoltAPI"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_GetTables_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_GetTables_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_GetTables_h_439685851(TEXT("/Script/GameJoltAPI"),
+		Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_GetTables_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Scores_GetTables_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

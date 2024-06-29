@@ -182,7 +182,7 @@ void FUpdateSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegate& Upda
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UUpdate_UpdateData_Statics::NewProp_Scope_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UUpdate_UpdateData_Statics::NewProp_Scope = { "Scope", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Update_eventUpdateData_Parms, Scope), Z_Construct_UEnum_GameJoltAPI_EGJDataStore, METADATA_PARAMS(0, nullptr) }; // 1859354787
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UUpdate_UpdateData_Statics::NewProp_Scope = { "Scope", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Update_eventUpdateData_Parms, Scope), Z_Construct_UEnum_GameJoltAPI_EGJDataStore, METADATA_PARAMS(0, nullptr) }; // 1883144207
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UUpdate_UpdateData_Statics::NewProp_Key_MetaData[] = {
 		{ "NativeConst", "" },
@@ -196,7 +196,7 @@ void FUpdateSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegate& Upda
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UUpdate_UpdateData_Statics::NewProp_Value = { "Value", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Update_eventUpdateData_Parms, Value), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UUpdate_UpdateData_Statics::NewProp_Value_MetaData), Z_Construct_UFunction_UUpdate_UpdateData_Statics::NewProp_Value_MetaData) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UUpdate_UpdateData_Statics::NewProp_Operation_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UUpdate_UpdateData_Statics::NewProp_Operation = { "Operation", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Update_eventUpdateData_Parms, Operation), Z_Construct_UEnum_GameJoltAPI_EGJDataOperation, METADATA_PARAMS(0, nullptr) }; // 1422521647
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UUpdate_UpdateData_Statics::NewProp_Operation = { "Operation", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Update_eventUpdateData_Parms, Operation), Z_Construct_UEnum_GameJoltAPI_EGJDataOperation, METADATA_PARAMS(0, nullptr) }; // 2286229853
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UUpdate_UpdateData_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Update_eventUpdateData_Parms, ReturnValue), Z_Construct_UClass_UUpdate_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UUpdate_UpdateData_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UUpdate_UpdateData_Statics::NewProp_Scope_Underlying,
@@ -210,9 +210,13 @@ void FUpdateSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegate& Upda
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UUpdate_UpdateData_Statics::Function_MetaDataParams[] = {
 		{ "BlueprintInternalUseOnly", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Updates data in the data store.\n\x09 * @param Scope If you select 'User', this item will be set for a user's data store. If you select 'Global', it will be set for the game's global data store.\n\x09 * @param Key The key of the data item you'd like to update.\n\x09 * @param Value The value you'd like to apply to the data store item. \n\x09 * @param Operation The operation you'd like to perform.\n\x09 * You can only perform mathematical operations on numerical data.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/AsyncActions/Data-Store/Update.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Updates data in the data store.\n@param Scope If you select 'User', this item will be set for a user's data store. If you select 'Global', it will be set for the game's global data store.\n@param Key The key of the data item you'd like to update.\n@param Value The value you'd like to apply to the data store item.\n@param Operation The operation you'd like to perform.\nYou can only perform mathematical operations on numerical data." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UUpdate_UpdateData_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UUpdate, nullptr, "UpdateData", nullptr, nullptr, Z_Construct_UFunction_UUpdate_UpdateData_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UUpdate_UpdateData_Statics::PropPointers), sizeof(Z_Construct_UFunction_UUpdate_UpdateData_Statics::Update_eventUpdateData_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UUpdate_UpdateData_Statics::Function_MetaDataParams), Z_Construct_UFunction_UUpdate_UpdateData_Statics::Function_MetaDataParams) };
@@ -254,15 +258,19 @@ void FUpdateSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegate& Upda
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UUpdate_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UUpdate_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UUpdate_Callback, "Callback" }, // 2145601740
-		{ &Z_Construct_UFunction_UUpdate_UpdateData, "UpdateData" }, // 4283588863
+		{ &Z_Construct_UFunction_UUpdate_UpdateData, "UpdateData" }, // 1544228601
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UUpdate_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UUpdate_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Updates data in the data store.\n */" },
+#endif
 		{ "IncludePath", "AsyncActions/Data-Store/Update.h" },
 		{ "ModuleRelativePath", "Public/AsyncActions/Data-Store/Update.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Updates data in the data store." },
+#endif
 	};
 #endif
 #if WITH_METADATA
@@ -308,15 +316,15 @@ void FUpdateSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegate& Upda
 	UUpdate::UUpdate(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UUpdate);
 	UUpdate::~UUpdate() {}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Data_Store_Update_h_Statics
+	struct Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Data_Store_Update_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Data_Store_Update_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UUpdate, UUpdate::StaticClass, TEXT("UUpdate"), &Z_Registration_Info_UClass_UUpdate, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UUpdate), 2631362046U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Data_Store_Update_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UUpdate, UUpdate::StaticClass, TEXT("UUpdate"), &Z_Registration_Info_UClass_UUpdate, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UUpdate), 2240425171U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Data_Store_Update_h_4286168349(TEXT("/Script/GameJoltAPI"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Data_Store_Update_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Data_Store_Update_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Data_Store_Update_h_2409256046(TEXT("/Script/GameJoltAPI"),
+		Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Data_Store_Update_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Data_Store_Update_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

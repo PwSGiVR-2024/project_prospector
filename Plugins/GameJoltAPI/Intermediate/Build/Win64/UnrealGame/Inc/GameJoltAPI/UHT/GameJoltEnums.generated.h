@@ -16,7 +16,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define GAMEJOLTAPI_GameJoltEnums_generated_h
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltEnums_h
+#define CURRENT_FILE_ID FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltEnums_h
 
 
 #define FOREACH_ENUM_EGJACHIEVEDTROPHIES(op) \

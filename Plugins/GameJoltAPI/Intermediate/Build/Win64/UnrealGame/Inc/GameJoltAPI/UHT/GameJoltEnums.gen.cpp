@@ -52,9 +52,13 @@ void EmptyLinkFunctionForGeneratedCodeGameJoltEnums() {}
 		{ "all.DisplayName", "All Trophies" },
 		{ "all.Name", "EGJAchievedTrophies::all" },
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* A filter used to fetch trophies */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameJoltEnums.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "A filter used to fetch trophies" },
+#endif
 		{ "unachieved.DisplayName", "Unachieved Trophies" },
 		{ "unachieved.Name", "EGJAchievedTrophies::unachieved" },
 	};
@@ -109,11 +113,15 @@ void EmptyLinkFunctionForGeneratedCodeGameJoltEnums() {}
 		{ "active.DisplayName", "Active" },
 		{ "active.Name", "EGJSessionStatus::active" },
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Represents the state of a session. */" },
+#endif
 		{ "idle.DisplayName", "Idle" },
 		{ "idle.Name", "EGJSessionStatus::idle" },
 		{ "ModuleRelativePath", "Public/GameJoltEnums.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Represents the state of a session." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumParams Z_Construct_UEnum_GameJoltAPI_EGJSessionStatus_Statics::EnumParams = {
@@ -164,11 +172,15 @@ void EmptyLinkFunctionForGeneratedCodeGameJoltEnums() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_GameJoltAPI_EGJDataStore_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Represents the scope of a data-store action */" },
+#endif
 		{ "global.DisplayName", "Global" },
 		{ "global.Name", "EGJDataStore::global" },
 		{ "ModuleRelativePath", "Public/GameJoltEnums.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Represents the scope of a data-store action" },
+#endif
 		{ "user.DisplayName", "User" },
 		{ "user.Name", "EGJDataStore::user" },
 	};
@@ -229,7 +241,9 @@ void EmptyLinkFunctionForGeneratedCodeGameJoltEnums() {}
 		{ "append.DisplayName", "Append" },
 		{ "append.Name", "EGJDataOperation::append" },
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Represents possible operations to perform with stored data */" },
+#endif
 		{ "divide.DisplayName", "Divide" },
 		{ "divide.Name", "EGJDataOperation::divide" },
 		{ "ModuleRelativePath", "Public/GameJoltEnums.h" },
@@ -239,7 +253,9 @@ void EmptyLinkFunctionForGeneratedCodeGameJoltEnums() {}
 		{ "prepend.Name", "EGJDataOperation::prepend" },
 		{ "substract.DisplayName", "Substract" },
 		{ "substract.Name", "EGJDataOperation::substract" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Represents possible operations to perform with stored data" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumParams Z_Construct_UEnum_GameJoltAPI_EGJDataOperation_Statics::EnumParams = {
@@ -293,11 +309,15 @@ void EmptyLinkFunctionForGeneratedCodeGameJoltEnums() {}
 		{ "all.DisplayName", "All Scores" },
 		{ "all.Name", "EGJScoreFilter::all" },
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* A filter used to fetch high-scores */" },
+#endif
 		{ "guest.DisplayName", "Scores of a guest" },
 		{ "guest.Name", "EGJScoreFilter::guest" },
 		{ "ModuleRelativePath", "Public/GameJoltEnums.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "A filter used to fetch high-scores" },
+#endif
 		{ "user.DisplayName", "Scores of the current user" },
 		{ "user.Name", "EGJScoreFilter::user" },
 	};
@@ -353,11 +373,15 @@ void EmptyLinkFunctionForGeneratedCodeGameJoltEnums() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_GameJoltAPI_EGJUserType_Statics::Enum_MetaDataParams[] = {
 		{ "Administrator.Name", "EGJUserType::Administrator" },
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Represents the type of a user */" },
+#endif
 		{ "Developer.Name", "EGJUserType::Developer" },
 		{ "Moderator.Name", "EGJUserType::Moderator" },
 		{ "ModuleRelativePath", "Public/GameJoltEnums.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Represents the type of a user" },
+#endif
 		{ "User.Name", "EGJUserType::User" },
 	};
 #endif
@@ -412,12 +436,16 @@ void EmptyLinkFunctionForGeneratedCodeGameJoltEnums() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_GameJoltAPI_EGJTrophyDifficulty_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
 		{ "Bronze.Name", "EGJTrophyDifficulty::Bronze" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Represents the difficulty of a trophy */" },
+#endif
 		{ "Gold.Name", "EGJTrophyDifficulty::Gold" },
 		{ "ModuleRelativePath", "Public/GameJoltEnums.h" },
 		{ "Platinum.Name", "EGJTrophyDifficulty::Platinum" },
 		{ "Silver.Name", "EGJTrophyDifficulty::Silver" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Represents the difficulty of a trophy" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumParams Z_Construct_UEnum_GameJoltAPI_EGJTrophyDifficulty_Statics::EnumParams = {
@@ -531,22 +559,22 @@ void EmptyLinkFunctionForGeneratedCodeGameJoltEnums() {}
 		}
 		return Z_Registration_Info_UEnum_EGJErrors.InnerSingleton;
 	}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltEnums_h_Statics
+	struct Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltEnums_h_Statics
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 	};
-	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltEnums_h_Statics::EnumInfo[] = {
-		{ EGJAchievedTrophies_StaticEnum, TEXT("EGJAchievedTrophies"), &Z_Registration_Info_UEnum_EGJAchievedTrophies, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2612278277U) },
-		{ EGJSessionStatus_StaticEnum, TEXT("EGJSessionStatus"), &Z_Registration_Info_UEnum_EGJSessionStatus, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 742866748U) },
-		{ EGJDataStore_StaticEnum, TEXT("EGJDataStore"), &Z_Registration_Info_UEnum_EGJDataStore, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1859354787U) },
-		{ EGJDataOperation_StaticEnum, TEXT("EGJDataOperation"), &Z_Registration_Info_UEnum_EGJDataOperation, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1422521647U) },
-		{ EGJScoreFilter_StaticEnum, TEXT("EGJScoreFilter"), &Z_Registration_Info_UEnum_EGJScoreFilter, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2587997971U) },
-		{ EGJUserType_StaticEnum, TEXT("EGJUserType"), &Z_Registration_Info_UEnum_EGJUserType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3993509682U) },
-		{ EGJTrophyDifficulty_StaticEnum, TEXT("EGJTrophyDifficulty"), &Z_Registration_Info_UEnum_EGJTrophyDifficulty, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3289541263U) },
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltEnums_h_Statics::EnumInfo[] = {
+		{ EGJAchievedTrophies_StaticEnum, TEXT("EGJAchievedTrophies"), &Z_Registration_Info_UEnum_EGJAchievedTrophies, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 4173289317U) },
+		{ EGJSessionStatus_StaticEnum, TEXT("EGJSessionStatus"), &Z_Registration_Info_UEnum_EGJSessionStatus, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3662948232U) },
+		{ EGJDataStore_StaticEnum, TEXT("EGJDataStore"), &Z_Registration_Info_UEnum_EGJDataStore, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1883144207U) },
+		{ EGJDataOperation_StaticEnum, TEXT("EGJDataOperation"), &Z_Registration_Info_UEnum_EGJDataOperation, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2286229853U) },
+		{ EGJScoreFilter_StaticEnum, TEXT("EGJScoreFilter"), &Z_Registration_Info_UEnum_EGJScoreFilter, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2300095023U) },
+		{ EGJUserType_StaticEnum, TEXT("EGJUserType"), &Z_Registration_Info_UEnum_EGJUserType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3424349082U) },
+		{ EGJTrophyDifficulty_StaticEnum, TEXT("EGJTrophyDifficulty"), &Z_Registration_Info_UEnum_EGJTrophyDifficulty, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 619934838U) },
 		{ EGJErrors_StaticEnum, TEXT("EGJErrors"), &Z_Registration_Info_UEnum_EGJErrors, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1852560761U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltEnums_h_177509422(TEXT("/Script/GameJoltAPI"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltEnums_h_1891904236(TEXT("/Script/GameJoltAPI"),
 		nullptr, 0,
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltEnums_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltEnums_h_Statics::EnumInfo));
+		Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltEnums_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltEnums_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

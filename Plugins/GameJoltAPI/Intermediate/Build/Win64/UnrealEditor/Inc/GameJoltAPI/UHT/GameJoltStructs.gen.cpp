@@ -84,9 +84,13 @@ template<> GAMEJOLTAPI_API UScriptStruct* StaticStruct<FUserInfo>()
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUserInfo_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Contains all available information about a user */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameJoltStructs.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Contains all available information about a user" },
+#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FUserInfo_Statics::NewStructOps()
@@ -96,9 +100,13 @@ template<> GAMEJOLTAPI_API UScriptStruct* StaticStruct<FUserInfo>()
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_UserID_MetaData[] = {
 		{ "Category", "GameJoltAPI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* The ID of the user. */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameJoltStructs.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The ID of the user." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_UserID = { "UserID", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUserInfo, UserID), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_UserID_MetaData), Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_UserID_MetaData) };
@@ -106,81 +114,117 @@ template<> GAMEJOLTAPI_API UScriptStruct* StaticStruct<FUserInfo>()
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_UserType_MetaData[] = {
 		{ "Category", "GameJoltAPI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* The type of user. Can be 'User', 'Developer', 'Moderator', or 'Administrator'. */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameJoltStructs.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The type of user. Can be 'User', 'Developer', 'Moderator', or 'Administrator'." },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_UserType = { "UserType", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUserInfo, UserType), Z_Construct_UEnum_GameJoltAPI_EGJUserType, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_UserType_MetaData), Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_UserType_MetaData) }; // 3993509682
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_UserType = { "UserType", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUserInfo, UserType), Z_Construct_UEnum_GameJoltAPI_EGJUserType, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_UserType_MetaData), Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_UserType_MetaData) }; // 3424349082
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_UserName_MetaData[] = {
 		{ "Category", "GameJoltAPI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* The user's username. */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameJoltStructs.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The user's username." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_UserName = { "UserName", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUserInfo, UserName), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_UserName_MetaData), Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_UserName_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_AvatarURL_MetaData[] = {
 		{ "Category", "GameJoltAPI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* The URL of the user's avatar. */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameJoltStructs.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The URL of the user's avatar." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_AvatarURL = { "AvatarURL", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUserInfo, AvatarURL), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_AvatarURL_MetaData), Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_AvatarURL_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_SignedUp_MetaData[] = {
 		{ "Category", "GameJoltAPI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* How long ago the user signed up. */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameJoltStructs.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "How long ago the user signed up." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_SignedUp = { "SignedUp", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUserInfo, SignedUp), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_SignedUp_MetaData), Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_SignedUp_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_LastLoggedIn_MetaData[] = {
 		{ "Category", "GameJoltAPI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* How long ago the user was last logged in. Will be Online Now if the user is currently online. */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameJoltStructs.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "How long ago the user was last logged in. Will be Online Now if the user is currently online." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_LastLoggedIn = { "LastLoggedIn", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUserInfo, LastLoggedIn), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_LastLoggedIn_MetaData), Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_LastLoggedIn_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_Status_MetaData[] = {
 		{ "Category", "GameJoltAPI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Active if the user is still a member of the site. Banned if they've been banned. */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameJoltStructs.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Active if the user is still a member of the site. Banned if they've been banned." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_Status = { "Status", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUserInfo, Status), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_Status_MetaData), Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_Status_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_DisplayName_MetaData[] = {
 		{ "Category", "GameJoltAPI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* The user's display name. */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameJoltStructs.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The user's display name." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_DisplayName = { "DisplayName", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUserInfo, DisplayName), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_DisplayName_MetaData), Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_DisplayName_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_Website_MetaData[] = {
 		{ "Category", "GameJoltAPI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* The user's website (or empty string if not specified) */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameJoltStructs.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The user's website (or empty string if not specified)" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_Website = { "Website", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUserInfo, Website), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_Website_MetaData), Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_Website_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_Description_MetaData[] = {
 		{ "Category", "GameJoltAPI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* The user's profile markdown description. */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameJoltStructs.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The user's profile markdown description." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_Description = { "Description", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUserInfo, Description), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_Description_MetaData), Z_Construct_UScriptStruct_FUserInfo_Statics::NewProp_Description_MetaData) };
@@ -274,9 +318,13 @@ template<> GAMEJOLTAPI_API UScriptStruct* StaticStruct<FTrophyInfo>()
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTrophyInfo_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Contains all information about a trophy */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameJoltStructs.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Contains all information about a trophy" },
+#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FTrophyInfo_Statics::NewStructOps()
@@ -286,27 +334,39 @@ template<> GAMEJOLTAPI_API UScriptStruct* StaticStruct<FTrophyInfo>()
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTrophyInfo_Statics::NewProp_ID_MetaData[] = {
 		{ "Category", "GameJoltAPI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* The ID of the trophy. */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameJoltStructs.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The ID of the trophy." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FTrophyInfo_Statics::NewProp_ID = { "ID", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTrophyInfo, ID), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTrophyInfo_Statics::NewProp_ID_MetaData), Z_Construct_UScriptStruct_FTrophyInfo_Statics::NewProp_ID_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTrophyInfo_Statics::NewProp_Name_MetaData[] = {
 		{ "Category", "GameJoltAPI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* The title of the trophy on the site. */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameJoltStructs.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The title of the trophy on the site." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FTrophyInfo_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTrophyInfo, Name), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTrophyInfo_Statics::NewProp_Name_MetaData), Z_Construct_UScriptStruct_FTrophyInfo_Statics::NewProp_Name_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTrophyInfo_Statics::NewProp_Description_MetaData[] = {
 		{ "Category", "GameJoltAPI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* The trophy description text. */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameJoltStructs.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The trophy description text." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FTrophyInfo_Statics::NewProp_Description = { "Description", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTrophyInfo, Description), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTrophyInfo_Statics::NewProp_Description_MetaData), Z_Construct_UScriptStruct_FTrophyInfo_Statics::NewProp_Description_MetaData) };
@@ -314,27 +374,39 @@ template<> GAMEJOLTAPI_API UScriptStruct* StaticStruct<FTrophyInfo>()
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTrophyInfo_Statics::NewProp_Difficulty_MetaData[] = {
 		{ "Category", "GameJoltAPI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* The difficulty of the trophy */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameJoltStructs.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The difficulty of the trophy" },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FTrophyInfo_Statics::NewProp_Difficulty = { "Difficulty", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTrophyInfo, Difficulty), Z_Construct_UEnum_GameJoltAPI_EGJTrophyDifficulty, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTrophyInfo_Statics::NewProp_Difficulty_MetaData), Z_Construct_UScriptStruct_FTrophyInfo_Statics::NewProp_Difficulty_MetaData) }; // 3289541263
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FTrophyInfo_Statics::NewProp_Difficulty = { "Difficulty", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTrophyInfo, Difficulty), Z_Construct_UEnum_GameJoltAPI_EGJTrophyDifficulty, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTrophyInfo_Statics::NewProp_Difficulty_MetaData), Z_Construct_UScriptStruct_FTrophyInfo_Statics::NewProp_Difficulty_MetaData) }; // 619934838
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTrophyInfo_Statics::NewProp_ImageURL_MetaData[] = {
 		{ "Category", "GameJoltAPI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* The URL of the trophy's thumbnail image. */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameJoltStructs.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The URL of the trophy's thumbnail image." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FTrophyInfo_Statics::NewProp_ImageURL = { "ImageURL", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTrophyInfo, ImageURL), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTrophyInfo_Statics::NewProp_ImageURL_MetaData), Z_Construct_UScriptStruct_FTrophyInfo_Statics::NewProp_ImageURL_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTrophyInfo_Statics::NewProp_bAchieved_MetaData[] = {
 		{ "Category", "GameJoltAPI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Whether the current user has achieved the trophy */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameJoltStructs.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether the current user has achieved the trophy" },
+#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FTrophyInfo_Statics::NewProp_bAchieved_SetBit(void* Obj)
@@ -345,9 +417,13 @@ template<> GAMEJOLTAPI_API UScriptStruct* StaticStruct<FTrophyInfo>()
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTrophyInfo_Statics::NewProp_Timestamp_MetaData[] = {
 		{ "Category", "GameJoltAPI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Date/time when the trophy was achieved by the user */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameJoltStructs.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Date/time when the trophy was achieved by the user" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FTrophyInfo_Statics::NewProp_Timestamp = { "Timestamp", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTrophyInfo, Timestamp), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTrophyInfo_Statics::NewProp_Timestamp_MetaData), Z_Construct_UScriptStruct_FTrophyInfo_Statics::NewProp_Timestamp_MetaData) };
@@ -440,9 +516,13 @@ template<> GAMEJOLTAPI_API UScriptStruct* StaticStruct<FScoreInfo>()
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FScoreInfo_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Contains all information about an entry in a scoreboard */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameJoltStructs.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Contains all information about an entry in a scoreboard" },
+#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FScoreInfo_Statics::NewStructOps()
@@ -452,72 +532,104 @@ template<> GAMEJOLTAPI_API UScriptStruct* StaticStruct<FScoreInfo>()
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FScoreInfo_Statics::NewProp_ScoreString_MetaData[] = {
 		{ "Category", "GameJoltAPI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* The score string. */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameJoltStructs.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The score string." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FScoreInfo_Statics::NewProp_ScoreString = { "ScoreString", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FScoreInfo, ScoreString), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScoreInfo_Statics::NewProp_ScoreString_MetaData), Z_Construct_UScriptStruct_FScoreInfo_Statics::NewProp_ScoreString_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FScoreInfo_Statics::NewProp_ScoreSort_MetaData[] = {
 		{ "Category", "GameJoltAPI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* The score's numerical sort value. */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameJoltStructs.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The score's numerical sort value." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FScoreInfo_Statics::NewProp_ScoreSort = { "ScoreSort", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FScoreInfo, ScoreSort), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScoreInfo_Statics::NewProp_ScoreSort_MetaData), Z_Construct_UScriptStruct_FScoreInfo_Statics::NewProp_ScoreSort_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FScoreInfo_Statics::NewProp_ExtraData_MetaData[] = {
 		{ "Category", "GameJoltAPI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Any extra data associated with the score. */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameJoltStructs.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Any extra data associated with the score." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FScoreInfo_Statics::NewProp_ExtraData = { "ExtraData", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FScoreInfo, ExtraData), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScoreInfo_Statics::NewProp_ExtraData_MetaData), Z_Construct_UScriptStruct_FScoreInfo_Statics::NewProp_ExtraData_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FScoreInfo_Statics::NewProp_UserName_MetaData[] = {
 		{ "Category", "GameJoltAPI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* If this is a user score, this is the display name for the user. */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameJoltStructs.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If this is a user score, this is the display name for the user." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FScoreInfo_Statics::NewProp_UserName = { "UserName", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FScoreInfo, UserName), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScoreInfo_Statics::NewProp_UserName_MetaData), Z_Construct_UScriptStruct_FScoreInfo_Statics::NewProp_UserName_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FScoreInfo_Statics::NewProp_UserID_MetaData[] = {
 		{ "Category", "GameJoltAPI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* If this is a user score, this is the user's ID. */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameJoltStructs.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If this is a user score, this is the user's ID." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FScoreInfo_Statics::NewProp_UserID = { "UserID", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FScoreInfo, UserID), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScoreInfo_Statics::NewProp_UserID_MetaData), Z_Construct_UScriptStruct_FScoreInfo_Statics::NewProp_UserID_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FScoreInfo_Statics::NewProp_Guest_MetaData[] = {
 		{ "Category", "GameJoltAPI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* If this is a guest score, this is the guest's submitted name. */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameJoltStructs.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If this is a guest score, this is the guest's submitted name." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FScoreInfo_Statics::NewProp_Guest = { "Guest", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FScoreInfo, Guest), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScoreInfo_Statics::NewProp_Guest_MetaData), Z_Construct_UScriptStruct_FScoreInfo_Statics::NewProp_Guest_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FScoreInfo_Statics::NewProp_Stored_MetaData[] = {
 		{ "Category", "GameJoltAPI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Returns when the score was logged by the user. */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameJoltStructs.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns when the score was logged by the user." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FScoreInfo_Statics::NewProp_Stored = { "Stored", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FScoreInfo, Stored), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScoreInfo_Statics::NewProp_Stored_MetaData), Z_Construct_UScriptStruct_FScoreInfo_Statics::NewProp_Stored_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FScoreInfo_Statics::NewProp_StoredTimestamp_MetaData[] = {
 		{ "Category", "GameJoltAPI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Returns the unix timestamp of when the score was logged by the user. */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameJoltStructs.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns the unix timestamp of when the score was logged by the user." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FScoreInfo_Statics::NewProp_StoredTimestamp = { "StoredTimestamp", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FScoreInfo, StoredTimestamp), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScoreInfo_Statics::NewProp_StoredTimestamp_MetaData), Z_Construct_UScriptStruct_FScoreInfo_Statics::NewProp_StoredTimestamp_MetaData) };
@@ -595,9 +707,13 @@ template<> GAMEJOLTAPI_API UScriptStruct* StaticStruct<FScoreTableInfo>()
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FScoreTableInfo_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Contains all information about a scoreboard */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameJoltStructs.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Contains all information about a scoreboard" },
+#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FScoreTableInfo_Statics::NewStructOps()
@@ -607,36 +723,52 @@ template<> GAMEJOLTAPI_API UScriptStruct* StaticStruct<FScoreTableInfo>()
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FScoreTableInfo_Statics::NewProp_ID_MetaData[] = {
 		{ "Category", "GameJoltAPI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* The ID of the score table. */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameJoltStructs.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The ID of the score table." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FScoreTableInfo_Statics::NewProp_ID = { "ID", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FScoreTableInfo, ID), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScoreTableInfo_Statics::NewProp_ID_MetaData), Z_Construct_UScriptStruct_FScoreTableInfo_Statics::NewProp_ID_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FScoreTableInfo_Statics::NewProp_Name_MetaData[] = {
 		{ "Category", "GameJoltAPI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* The developer-defined name of the score table. */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameJoltStructs.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The developer-defined name of the score table." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FScoreTableInfo_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FScoreTableInfo, Name), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScoreTableInfo_Statics::NewProp_Name_MetaData), Z_Construct_UScriptStruct_FScoreTableInfo_Statics::NewProp_Name_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FScoreTableInfo_Statics::NewProp_Description_MetaData[] = {
 		{ "Category", "GameJoltAPI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* The developer-defined description of the score table. */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameJoltStructs.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The developer-defined description of the score table." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FScoreTableInfo_Statics::NewProp_Description = { "Description", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FScoreTableInfo, Description), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScoreTableInfo_Statics::NewProp_Description_MetaData), Z_Construct_UScriptStruct_FScoreTableInfo_Statics::NewProp_Description_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FScoreTableInfo_Statics::NewProp_Primary_MetaData[] = {
 		{ "Category", "GameJoltAPI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Whether or not this is the default score table. Scores are submitted to the primary table by default. */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameJoltStructs.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether or not this is the default score table. Scores are submitted to the primary table by default." },
+#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FScoreTableInfo_Statics::NewProp_Primary_SetBit(void* Obj)
@@ -729,9 +861,13 @@ template<> GAMEJOLTAPI_API UScriptStruct* StaticStruct<FServerTime>()
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FServerTime_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Contains Server-Time information */" },
+#endif
 		{ "ModuleRelativePath", "Public/GameJoltStructs.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Contains Server-Time information" },
+#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FServerTime_Statics::NewStructOps()
@@ -826,19 +962,19 @@ template<> GAMEJOLTAPI_API UScriptStruct* StaticStruct<FServerTime>()
 		}
 		return Z_Registration_Info_UScriptStruct_ServerTime.InnerSingleton;
 	}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltStructs_h_Statics
+	struct Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltStructs_h_Statics
 	{
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltStructs_h_Statics::ScriptStructInfo[] = {
-		{ FUserInfo::StaticStruct, Z_Construct_UScriptStruct_FUserInfo_Statics::NewStructOps, TEXT("UserInfo"), &Z_Registration_Info_UScriptStruct_UserInfo, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FUserInfo), 34347669U) },
-		{ FTrophyInfo::StaticStruct, Z_Construct_UScriptStruct_FTrophyInfo_Statics::NewStructOps, TEXT("TrophyInfo"), &Z_Registration_Info_UScriptStruct_TrophyInfo, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FTrophyInfo), 1837097383U) },
-		{ FScoreInfo::StaticStruct, Z_Construct_UScriptStruct_FScoreInfo_Statics::NewStructOps, TEXT("ScoreInfo"), &Z_Registration_Info_UScriptStruct_ScoreInfo, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FScoreInfo), 978238128U) },
-		{ FScoreTableInfo::StaticStruct, Z_Construct_UScriptStruct_FScoreTableInfo_Statics::NewStructOps, TEXT("ScoreTableInfo"), &Z_Registration_Info_UScriptStruct_ScoreTableInfo, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FScoreTableInfo), 2716036949U) },
-		{ FServerTime::StaticStruct, Z_Construct_UScriptStruct_FServerTime_Statics::NewStructOps, TEXT("ServerTime"), &Z_Registration_Info_UScriptStruct_ServerTime, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FServerTime), 3498917748U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltStructs_h_Statics::ScriptStructInfo[] = {
+		{ FUserInfo::StaticStruct, Z_Construct_UScriptStruct_FUserInfo_Statics::NewStructOps, TEXT("UserInfo"), &Z_Registration_Info_UScriptStruct_UserInfo, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FUserInfo), 2202402224U) },
+		{ FTrophyInfo::StaticStruct, Z_Construct_UScriptStruct_FTrophyInfo_Statics::NewStructOps, TEXT("TrophyInfo"), &Z_Registration_Info_UScriptStruct_TrophyInfo, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FTrophyInfo), 3749690392U) },
+		{ FScoreInfo::StaticStruct, Z_Construct_UScriptStruct_FScoreInfo_Statics::NewStructOps, TEXT("ScoreInfo"), &Z_Registration_Info_UScriptStruct_ScoreInfo, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FScoreInfo), 1122849245U) },
+		{ FScoreTableInfo::StaticStruct, Z_Construct_UScriptStruct_FScoreTableInfo_Statics::NewStructOps, TEXT("ScoreTableInfo"), &Z_Registration_Info_UScriptStruct_ScoreTableInfo, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FScoreTableInfo), 2846959055U) },
+		{ FServerTime::StaticStruct, Z_Construct_UScriptStruct_FServerTime_Statics::NewStructOps, TEXT("ServerTime"), &Z_Registration_Info_UScriptStruct_ServerTime, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FServerTime), 2068115068U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltStructs_h_2794731648(TEXT("/Script/GameJoltAPI"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltStructs_h_113701858(TEXT("/Script/GameJoltAPI"),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltStructs_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltStructs_h_Statics::ScriptStructInfo),
+		Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltStructs_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_GameJoltStructs_h_Statics::ScriptStructInfo),
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
