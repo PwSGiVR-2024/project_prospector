@@ -42,13 +42,13 @@ void EmptyLinkFunctionForGeneratedCodeFetchTrophies() {}
 	};
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UDelegateFunction_GameJoltAPI_FetchTrophiesSuccessDelegate__DelegateSignature_Statics::NewProp_Error_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UDelegateFunction_GameJoltAPI_FetchTrophiesSuccessDelegate__DelegateSignature_Statics::NewProp_Error = { "Error", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_GameJoltAPI_eventFetchTrophiesSuccessDelegate_Parms, Error), Z_Construct_UEnum_GameJoltAPI_EGJErrors, METADATA_PARAMS(0, nullptr) }; // 1852560761
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_GameJoltAPI_FetchTrophiesSuccessDelegate__DelegateSignature_Statics::NewProp_Trophies_Inner = { "Trophies", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FTrophyInfo, METADATA_PARAMS(0, nullptr) }; // 1837097383
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_GameJoltAPI_FetchTrophiesSuccessDelegate__DelegateSignature_Statics::NewProp_Trophies_Inner = { "Trophies", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FTrophyInfo, METADATA_PARAMS(0, nullptr) }; // 3749690392
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_GameJoltAPI_FetchTrophiesSuccessDelegate__DelegateSignature_Statics::NewProp_Trophies_MetaData[] = {
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UDelegateFunction_GameJoltAPI_FetchTrophiesSuccessDelegate__DelegateSignature_Statics::NewProp_Trophies = { "Trophies", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_GameJoltAPI_eventFetchTrophiesSuccessDelegate_Parms, Trophies), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_GameJoltAPI_FetchTrophiesSuccessDelegate__DelegateSignature_Statics::NewProp_Trophies_MetaData), Z_Construct_UDelegateFunction_GameJoltAPI_FetchTrophiesSuccessDelegate__DelegateSignature_Statics::NewProp_Trophies_MetaData) }; // 1837097383
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UDelegateFunction_GameJoltAPI_FetchTrophiesSuccessDelegate__DelegateSignature_Statics::NewProp_Trophies = { "Trophies", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_GameJoltAPI_eventFetchTrophiesSuccessDelegate_Parms, Trophies), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_GameJoltAPI_FetchTrophiesSuccessDelegate__DelegateSignature_Statics::NewProp_Trophies_MetaData), Z_Construct_UDelegateFunction_GameJoltAPI_FetchTrophiesSuccessDelegate__DelegateSignature_Statics::NewProp_Trophies_MetaData) }; // 3749690392
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_GameJoltAPI_FetchTrophiesSuccessDelegate__DelegateSignature_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_GameJoltAPI_FetchTrophiesSuccessDelegate__DelegateSignature_Statics::NewProp_Error_Underlying,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_GameJoltAPI_FetchTrophiesSuccessDelegate__DelegateSignature_Statics::NewProp_Error,
@@ -182,7 +182,7 @@ void FFetchTrophiesSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegat
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UFetchTrophies_FetchTrophies_Statics::NewProp_TrophyFilter_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UFetchTrophies_FetchTrophies_Statics::NewProp_TrophyFilter = { "TrophyFilter", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FetchTrophies_eventFetchTrophies_Parms, TrophyFilter), Z_Construct_UEnum_GameJoltAPI_EGJAchievedTrophies, METADATA_PARAMS(0, nullptr) }; // 2612278277
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UFetchTrophies_FetchTrophies_Statics::NewProp_TrophyFilter = { "TrophyFilter", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FetchTrophies_eventFetchTrophies_Parms, TrophyFilter), Z_Construct_UEnum_GameJoltAPI_EGJAchievedTrophies, METADATA_PARAMS(0, nullptr) }; // 4173289317
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UFetchTrophies_FetchTrophies_Statics::NewProp_TrophyIDs_Inner = { "TrophyIDs", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UFetchTrophies_FetchTrophies_Statics::NewProp_TrophyIDs = { "TrophyIDs", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FetchTrophies_eventFetchTrophies_Parms, TrophyIDs), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFetchTrophies_FetchTrophies_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FetchTrophies_eventFetchTrophies_Parms, ReturnValue), Z_Construct_UClass_UFetchTrophies_NoRegister, METADATA_PARAMS(0, nullptr) };
@@ -196,9 +196,13 @@ void FFetchTrophiesSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegat
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UFetchTrophies_FetchTrophies_Statics::Function_MetaDataParams[] = {
 		{ "BlueprintInternalUseOnly", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Returns one trophy or multiple trophies, depending on the parameters passed in.\n\x09 * Passing values in the TrophyIDs parameter will ignore the TrophyFilter parameter.\n\x09 * @param TropyFilter Whether you want to fetch all, only achieved or only unachieved trophies\n\x09 * @param TrophyIDs (Optional) Either a single trophy ID or multiple.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/AsyncActions/Trophies/FetchTrophies.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns one trophy or multiple trophies, depending on the parameters passed in.\nPassing values in the TrophyIDs parameter will ignore the TrophyFilter parameter.\n@param TropyFilter Whether you want to fetch all, only achieved or only unachieved trophies\n@param TrophyIDs (Optional) Either a single trophy ID or multiple." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFetchTrophies_FetchTrophies_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFetchTrophies, nullptr, "FetchTrophies", nullptr, nullptr, Z_Construct_UFunction_UFetchTrophies_FetchTrophies_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFetchTrophies_FetchTrophies_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFetchTrophies_FetchTrophies_Statics::FetchTrophies_eventFetchTrophies_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFetchTrophies_FetchTrophies_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFetchTrophies_FetchTrophies_Statics::Function_MetaDataParams) };
@@ -240,15 +244,19 @@ void FFetchTrophiesSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegat
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFetchTrophies_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UFetchTrophies_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UFetchTrophies_Callback, "Callback" }, // 2739775724
-		{ &Z_Construct_UFunction_UFetchTrophies_FetchTrophies, "FetchTrophies" }, // 141798069
+		{ &Z_Construct_UFunction_UFetchTrophies_FetchTrophies, "FetchTrophies" }, // 71300804
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFetchTrophies_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFetchTrophies_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Returns one trophy or multiple trophies, depending on the parameters passed in.\n */" },
+#endif
 		{ "IncludePath", "AsyncActions/Trophies/FetchTrophies.h" },
 		{ "ModuleRelativePath", "Public/AsyncActions/Trophies/FetchTrophies.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns one trophy or multiple trophies, depending on the parameters passed in." },
+#endif
 	};
 #endif
 #if WITH_METADATA
@@ -256,7 +264,7 @@ void FFetchTrophiesSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegat
 		{ "ModuleRelativePath", "Public/AsyncActions/Trophies/FetchTrophies.h" },
 	};
 #endif
-	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UFetchTrophies_Statics::NewProp_Success = { "Success", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFetchTrophies, Success), Z_Construct_UDelegateFunction_GameJoltAPI_FetchTrophiesSuccessDelegate__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFetchTrophies_Statics::NewProp_Success_MetaData), Z_Construct_UClass_UFetchTrophies_Statics::NewProp_Success_MetaData) }; // 1226753883
+	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UFetchTrophies_Statics::NewProp_Success = { "Success", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFetchTrophies, Success), Z_Construct_UDelegateFunction_GameJoltAPI_FetchTrophiesSuccessDelegate__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFetchTrophies_Statics::NewProp_Success_MetaData), Z_Construct_UClass_UFetchTrophies_Statics::NewProp_Success_MetaData) }; // 414381041
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UFetchTrophies_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFetchTrophies_Statics::NewProp_Success,
 	};
@@ -294,15 +302,15 @@ void FFetchTrophiesSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegat
 	UFetchTrophies::UFetchTrophies(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UFetchTrophies);
 	UFetchTrophies::~UFetchTrophies() {}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Trophies_FetchTrophies_h_Statics
+	struct Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Trophies_FetchTrophies_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Trophies_FetchTrophies_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UFetchTrophies, UFetchTrophies::StaticClass, TEXT("UFetchTrophies"), &Z_Registration_Info_UClass_UFetchTrophies, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFetchTrophies), 3565169158U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Trophies_FetchTrophies_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UFetchTrophies, UFetchTrophies::StaticClass, TEXT("UFetchTrophies"), &Z_Registration_Info_UClass_UFetchTrophies, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFetchTrophies), 364338644U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Trophies_FetchTrophies_h_2217276384(TEXT("/Script/GameJoltAPI"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Trophies_FetchTrophies_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Trophies_FetchTrophies_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Trophies_FetchTrophies_h_2030870501(TEXT("/Script/GameJoltAPI"),
+		Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Trophies_FetchTrophies_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Trophies_FetchTrophies_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

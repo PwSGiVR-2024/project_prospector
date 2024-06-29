@@ -220,10 +220,14 @@ void FRewardTrophySuccessDelegate_DelegateWrapper(const FMulticastScriptDelegate
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_URewardTrophy_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_URewardTrophy_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Rewards a trophy to the current user.\n */" },
+#endif
 		{ "IncludePath", "AsyncActions/Trophies/RewardTrophy.h" },
 		{ "ModuleRelativePath", "Public/AsyncActions/Trophies/RewardTrophy.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Rewards a trophy to the current user." },
+#endif
 	};
 #endif
 #if WITH_METADATA
@@ -269,15 +273,15 @@ void FRewardTrophySuccessDelegate_DelegateWrapper(const FMulticastScriptDelegate
 	URewardTrophy::URewardTrophy(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(URewardTrophy);
 	URewardTrophy::~URewardTrophy() {}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Trophies_RewardTrophy_h_Statics
+	struct Z_CompiledInDeferFile_FID_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Trophies_RewardTrophy_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Trophies_RewardTrophy_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_URewardTrophy, URewardTrophy::StaticClass, TEXT("URewardTrophy"), &Z_Registration_Info_UClass_URewardTrophy, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(URewardTrophy), 113841841U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Trophies_RewardTrophy_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_URewardTrophy, URewardTrophy::StaticClass, TEXT("URewardTrophy"), &Z_Registration_Info_UClass_URewardTrophy, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(URewardTrophy), 3682461310U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Trophies_RewardTrophy_h_3445795803(TEXT("/Script/GameJoltAPI"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Trophies_RewardTrophy_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Trophies_RewardTrophy_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Trophies_RewardTrophy_h_1442322173(TEXT("/Script/GameJoltAPI"),
+		Z_CompiledInDeferFile_FID_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Trophies_RewardTrophy_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Trophies_RewardTrophy_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

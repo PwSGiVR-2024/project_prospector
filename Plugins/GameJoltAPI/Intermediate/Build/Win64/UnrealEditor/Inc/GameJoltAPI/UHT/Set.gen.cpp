@@ -171,7 +171,7 @@ void FSetSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegate& SetSucc
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_USet_SetData_Statics::NewProp_Scope_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_USet_SetData_Statics::NewProp_Scope = { "Scope", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Set_eventSetData_Parms, Scope), Z_Construct_UEnum_GameJoltAPI_EGJDataStore, METADATA_PARAMS(0, nullptr) }; // 1859354787
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_USet_SetData_Statics::NewProp_Scope = { "Scope", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Set_eventSetData_Parms, Scope), Z_Construct_UEnum_GameJoltAPI_EGJDataStore, METADATA_PARAMS(0, nullptr) }; // 1883144207
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_USet_SetData_Statics::NewProp_Key_MetaData[] = {
 		{ "NativeConst", "" },
@@ -195,9 +195,13 @@ void FSetSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegate& SetSucc
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_USet_SetData_Statics::Function_MetaDataParams[] = {
 		{ "BlueprintInternalUseOnly", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Sets data in the data store.\n\x09 * You can update an existing key/value-pair or create a new one.\n\x09 * @param Scope If you select 'User', this item will be set for a user's data store. If you select 'Global', it will be set for the game's global data store.\n\x09 * @param Key The key of the data item you'd like to set.\n\x09 * @param Data The data you'd like to set.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/AsyncActions/Data-Store/Set.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sets data in the data store.\nYou can update an existing key/value-pair or create a new one.\n@param Scope If you select 'User', this item will be set for a user's data store. If you select 'Global', it will be set for the game's global data store.\n@param Key The key of the data item you'd like to set.\n@param Data The data you'd like to set." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_USet_SetData_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_USet, nullptr, "SetData", nullptr, nullptr, Z_Construct_UFunction_USet_SetData_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_USet_SetData_Statics::PropPointers), sizeof(Z_Construct_UFunction_USet_SetData_Statics::Set_eventSetData_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_USet_SetData_Statics::Function_MetaDataParams), Z_Construct_UFunction_USet_SetData_Statics::Function_MetaDataParams) };
@@ -239,15 +243,19 @@ void FSetSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegate& SetSucc
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_USet_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_USet_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_USet_Callback, "Callback" }, // 1644333989
-		{ &Z_Construct_UFunction_USet_SetData, "SetData" }, // 152101793
+		{ &Z_Construct_UFunction_USet_SetData, "SetData" }, // 1590249821
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_USet_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_USet_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Sets data in the data store.\n */" },
+#endif
 		{ "IncludePath", "AsyncActions/Data-Store/Set.h" },
 		{ "ModuleRelativePath", "Public/AsyncActions/Data-Store/Set.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sets data in the data store." },
+#endif
 	};
 #endif
 #if WITH_METADATA
@@ -293,15 +301,15 @@ void FSetSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegate& SetSucc
 	USet::USet(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(USet);
 	USet::~USet() {}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Data_Store_Set_h_Statics
+	struct Z_CompiledInDeferFile_FID_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Data_Store_Set_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Data_Store_Set_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_USet, USet::StaticClass, TEXT("USet"), &Z_Registration_Info_UClass_USet, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(USet), 427091415U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Data_Store_Set_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_USet, USet::StaticClass, TEXT("USet"), &Z_Registration_Info_UClass_USet, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(USet), 590042929U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Data_Store_Set_h_797881820(TEXT("/Script/GameJoltAPI"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Data_Store_Set_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Data_Store_Set_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Data_Store_Set_h_2071689841(TEXT("/Script/GameJoltAPI"),
+		Z_CompiledInDeferFile_FID_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Data_Store_Set_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Data_Store_Set_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

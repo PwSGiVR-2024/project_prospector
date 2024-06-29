@@ -171,7 +171,7 @@ void FFetchDataSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegate& F
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UFetchData_FetchData_Statics::NewProp_Scope_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UFetchData_FetchData_Statics::NewProp_Scope = { "Scope", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FetchData_eventFetchData_Parms, Scope), Z_Construct_UEnum_GameJoltAPI_EGJDataStore, METADATA_PARAMS(0, nullptr) }; // 1859354787
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UFetchData_FetchData_Statics::NewProp_Scope = { "Scope", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FetchData_eventFetchData_Parms, Scope), Z_Construct_UEnum_GameJoltAPI_EGJDataStore, METADATA_PARAMS(0, nullptr) }; // 1883144207
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UFetchData_FetchData_Statics::NewProp_Key_MetaData[] = {
 		{ "NativeConst", "" },
@@ -188,9 +188,13 @@ void FFetchDataSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegate& F
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UFetchData_FetchData_Statics::Function_MetaDataParams[] = {
 		{ "BlueprintInternalUseOnly", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Returns data from the data store.\n\x09 * @param Scope If you select 'User', the data item will be fetched for a user. If you select 'Global', it will be fetched globally for the game.\n\x09 * @param Key The key of the data item you'd like to fetch.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/AsyncActions/Data-Store/FetchData.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns data from the data store.\n@param Scope If you select 'User', the data item will be fetched for a user. If you select 'Global', it will be fetched globally for the game.\n@param Key The key of the data item you'd like to fetch." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFetchData_FetchData_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFetchData, nullptr, "FetchData", nullptr, nullptr, Z_Construct_UFunction_UFetchData_FetchData_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFetchData_FetchData_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFetchData_FetchData_Statics::FetchData_eventFetchData_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFetchData_FetchData_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFetchData_FetchData_Statics::Function_MetaDataParams) };
@@ -232,15 +236,19 @@ void FFetchDataSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegate& F
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFetchData_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UFetchData_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UFetchData_Callback, "Callback" }, // 1504142131
-		{ &Z_Construct_UFunction_UFetchData_FetchData, "FetchData" }, // 2021893701
+		{ &Z_Construct_UFunction_UFetchData_FetchData, "FetchData" }, // 2796441022
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFetchData_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFetchData_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Returns data from the data store.\n */" },
+#endif
 		{ "IncludePath", "AsyncActions/Data-Store/FetchData.h" },
 		{ "ModuleRelativePath", "Public/AsyncActions/Data-Store/FetchData.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns data from the data store." },
+#endif
 	};
 #endif
 #if WITH_METADATA
@@ -286,15 +294,15 @@ void FFetchDataSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegate& F
 	UFetchData::UFetchData(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UFetchData);
 	UFetchData::~UFetchData() {}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Data_Store_FetchData_h_Statics
+	struct Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Data_Store_FetchData_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Data_Store_FetchData_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UFetchData, UFetchData::StaticClass, TEXT("UFetchData"), &Z_Registration_Info_UClass_UFetchData, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFetchData), 4091573566U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Data_Store_FetchData_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UFetchData, UFetchData::StaticClass, TEXT("UFetchData"), &Z_Registration_Info_UClass_UFetchData, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFetchData), 3385192728U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Data_Store_FetchData_h_2042892167(TEXT("/Script/GameJoltAPI"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Data_Store_FetchData_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Data_Store_FetchData_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Data_Store_FetchData_h_2295566957(TEXT("/Script/GameJoltAPI"),
+		Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Data_Store_FetchData_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Projekty_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Data_Store_FetchData_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

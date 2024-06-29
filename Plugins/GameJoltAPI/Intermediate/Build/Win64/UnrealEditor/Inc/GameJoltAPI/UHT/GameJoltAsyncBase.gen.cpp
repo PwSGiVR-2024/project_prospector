@@ -92,7 +92,9 @@ void FOnFailureOutputPin_DelegateWrapper(const FMulticastScriptDelegate& OnFailu
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGameJoltAsyncBase_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGameJoltAsyncBase_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * \n */" },
+#endif
 		{ "IncludePath", "AsyncActions/GameJoltAsyncBase.h" },
 		{ "ModuleRelativePath", "Public/AsyncActions/GameJoltAsyncBase.h" },
 	};
@@ -140,15 +142,15 @@ void FOnFailureOutputPin_DelegateWrapper(const FMulticastScriptDelegate& OnFailu
 	UGameJoltAsyncBase::UGameJoltAsyncBase(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGameJoltAsyncBase);
 	UGameJoltAsyncBase::~UGameJoltAsyncBase() {}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_GameJoltAsyncBase_h_Statics
+	struct Z_CompiledInDeferFile_FID_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_GameJoltAsyncBase_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_GameJoltAsyncBase_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UGameJoltAsyncBase, UGameJoltAsyncBase::StaticClass, TEXT("UGameJoltAsyncBase"), &Z_Registration_Info_UClass_UGameJoltAsyncBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGameJoltAsyncBase), 1494703946U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_GameJoltAsyncBase_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UGameJoltAsyncBase, UGameJoltAsyncBase::StaticClass, TEXT("UGameJoltAsyncBase"), &Z_Registration_Info_UClass_UGameJoltAsyncBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGameJoltAsyncBase), 1535397246U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_GameJoltAsyncBase_h_2301623409(TEXT("/Script/GameJoltAPI"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_GameJoltAsyncBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_GameJoltAsyncBase_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_GameJoltAsyncBase_h_3312227520(TEXT("/Script/GameJoltAPI"),
+		Z_CompiledInDeferFile_FID_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_GameJoltAsyncBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_GameJoltAsyncBase_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

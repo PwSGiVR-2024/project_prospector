@@ -207,10 +207,14 @@ void FOpenSessionSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegate&
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UOpenSession_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOpenSession_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Opens a session for the current user.\n */" },
+#endif
 		{ "IncludePath", "AsyncActions/Sessions/OpenSession.h" },
 		{ "ModuleRelativePath", "Public/AsyncActions/Sessions/OpenSession.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Opens a session for the current user." },
+#endif
 	};
 #endif
 #if WITH_METADATA
@@ -256,15 +260,15 @@ void FOpenSessionSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegate&
 	UOpenSession::UOpenSession(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UOpenSession);
 	UOpenSession::~UOpenSession() {}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Sessions_OpenSession_h_Statics
+	struct Z_CompiledInDeferFile_FID_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Sessions_OpenSession_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Sessions_OpenSession_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UOpenSession, UOpenSession::StaticClass, TEXT("UOpenSession"), &Z_Registration_Info_UClass_UOpenSession, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOpenSession), 391283122U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Sessions_OpenSession_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UOpenSession, UOpenSession::StaticClass, TEXT("UOpenSession"), &Z_Registration_Info_UClass_UOpenSession, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOpenSession), 3566957079U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Sessions_OpenSession_h_4037316142(TEXT("/Script/GameJoltAPI"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Sessions_OpenSession_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Sessions_OpenSession_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Sessions_OpenSession_h_2120110435(TEXT("/Script/GameJoltAPI"),
+		Z_CompiledInDeferFile_FID_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Sessions_OpenSession_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Sessions_OpenSession_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

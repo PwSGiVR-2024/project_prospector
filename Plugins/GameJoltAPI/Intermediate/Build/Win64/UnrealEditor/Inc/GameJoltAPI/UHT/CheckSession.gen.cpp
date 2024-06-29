@@ -218,10 +218,14 @@ void FCheckSessionSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegate
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UCheckSession_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCheckSession_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Checks if the session of the current user is still active.\n */" },
+#endif
 		{ "IncludePath", "AsyncActions/Sessions/CheckSession.h" },
 		{ "ModuleRelativePath", "Public/AsyncActions/Sessions/CheckSession.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Checks if the session of the current user is still active." },
+#endif
 	};
 #endif
 #if WITH_METADATA
@@ -267,15 +271,15 @@ void FCheckSessionSuccessDelegate_DelegateWrapper(const FMulticastScriptDelegate
 	UCheckSession::UCheckSession(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UCheckSession);
 	UCheckSession::~UCheckSession() {}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Sessions_CheckSession_h_Statics
+	struct Z_CompiledInDeferFile_FID_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Sessions_CheckSession_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Sessions_CheckSession_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UCheckSession, UCheckSession::StaticClass, TEXT("UCheckSession"), &Z_Registration_Info_UClass_UCheckSession, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UCheckSession), 221328230U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Sessions_CheckSession_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UCheckSession, UCheckSession::StaticClass, TEXT("UCheckSession"), &Z_Registration_Info_UClass_UCheckSession, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UCheckSession), 3988692956U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Sessions_CheckSession_h_1060543921(TEXT("/Script/GameJoltAPI"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Sessions_CheckSession_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Sessions_CheckSession_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Sessions_CheckSession_h_3841351450(TEXT("/Script/GameJoltAPI"),
+		Z_CompiledInDeferFile_FID_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Sessions_CheckSession_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_project_prospector_Plugins_GameJoltAPI_Source_GameJoltAPI_Public_AsyncActions_Sessions_CheckSession_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
