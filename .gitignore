@@ -75,3 +75,5 @@ DerivedDataCache/*
 
 !Plugins/*
 !Plugins/**
+!_game/*
+!_game/**
