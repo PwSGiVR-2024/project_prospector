@@ -1,0 +1,3 @@
+Ze względu na wielkość plików, build został wysłany na OneDrive: https://samszczecin-my.sharepoint.com/:u:/g/personal/28877_s_pm_szczecin_pl/ERYzLuQ0rE9PrDYhvQLiBqMBoRbUG9HgW-NiQ7PKX1J1VA?e=GI7ELC
+
+Poprzez problemy z buildem serwera przez wymóg kompilacji czystego silnika UE5 który stwarzał problemy na naszych urządzeniach oraz wymaganą wielkością projektu który był wyższe niż ustawione partycji na naszych dyskach twardych, został wysłany tylko build Client, aktualnie w celu uruchomienia serwera należy uruchomić projekt w Unreal Engine 5 i włączenie Play, serwer zostanie włączony w tle z adresem localhost oraz portem 17777
